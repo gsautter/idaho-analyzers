@@ -1,0 +1,36 @@
+Konservierungsmittel: Alkohol (allgemein)
+Konservierungsmittel: Ethanol, rein
+Konservierungsmittel: Ethanol, vergällt
+Konservierungsmittel: Ethanol mit Formalinzusatz
+Konservierungsmittel: Ethanol mit Glycerolzusatz
+Konservierungsmittel: Ethylenglycol
+Konservierungsmittel: Glycerol
+Konservierungsmittel: Isopropanol
+Konservierungsmittel: Formol (wässrige Formaldehydlösung)
+Konservierungsmittel: Bouin (Formalin, Essigsäure, Pikrinsäure)
+Konservierungsmittel: Pikrinsäurelösung
+Konservierungsmittel: Fixierungsgemisch
+Konservierungsmittel: Gemisch nach Gisin (1958) (Ethanol, Diethylether, Essigsäure, Formalin)
+Konservierungsmittel: Gemisch nach Hüther (1992) (Ethanol, Diethylether, Formalin)
+Konservierungsmittel: Gemisch nach Oudemans (Ethanol, Essigsäure, Glycerol)
+Konservierungsmittel: Gemisch nach von Törne (1965) (Isopropanol, Essigsäure, Formalin)
+Konservierungsmittel: Sonstiges/Hausmischungen
+
+Kälte: 8 ... 4°C
+Kälte: 4 ... 0°C
+Kälte: 0 ... -20°C
+Kälte: -20 ... -80°C
+Kälte: < -80°C
+
+Einbettungsmedium: wasserunlösliches Harz
+Einbettungsmedium: natürliches, wasserunlösliches Harz
+Einbettungsmedium: künstliches, wasserunlösliches Harz
+Einbettungsmedium: Kanadabalsam
+Einbettungsmedium: Euparal
+Einbettungsmedium: Malinol
+Einbettungsmedium: wasserlösliches Medium
+Einbettungsmedium: Chloralhydrat-Gemisch
+Einbettungsmedium: Glyceringelatine
+Einbettungsmedium: Lactophenol-Gemisch
+
+Ausstopfung

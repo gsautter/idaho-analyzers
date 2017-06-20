@@ -1,0 +1,35 @@
+Acker (Biotoptyp)
+Anpflanzung (Biotoptyp)
+Immissionen
+Autoabgase
+Industrieimmissionen
+Beregnung
+Überflutung
+Regenschutz
+Bodenverdichtung
+Bodenabtragung
+Beweidung (Biotoptyp)
+
+Waldschäden
+Kahlschlag
+Windbruch
+Feuer
+Brandrodung
+
+Mahd
+Kahlschlag
+Windbruch
+Feuer
+
+Düngung
+organische Düngung
+mineralische Düngung
+Kalkung
+Gletscherdynamik (Biotoptyp)
+Hudenutzung
+Müll
+Pestizide / Biozide
+Akarizide
+Fungizide
+Herbizide
+Insektizide

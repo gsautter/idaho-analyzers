@@ -1,0 +1,1 @@
+[A-Z](([a-z]+(idae|inae|ini))|([A-Z]+(IDAE|INAE|INI)))

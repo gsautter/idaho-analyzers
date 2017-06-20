@@ -1,0 +1,169 @@
+<omniFat>
+	<description>OmniFAT instance for botanical documents, both legacy and born-digital.</description>
+	<fuzzyMatch threshold="2"/>
+	<abbreviationLengthInLetters min="1" max="2" unDotted="false"/>
+	<newEpithetLabels separator=";">n.;nov.;novus;nova;novum;new</newEpithetLabels>
+	<intraEpithetPunctuation separator=";">?;(?)</intraEpithetPunctuation>
+	<interEpithetPunctuation separator=";">?;(?)</interEpithetPunctuation>
+	<dictionary ref="anatomicDircetions.list.txt" type="stopWord" suffixDiffThreshold="0"/>
+	<dictionary ref="EnglishWord.list.txt" type="negative" suffixDiffThreshold="10"/>
+	<dictionary ref="ForbiddenWordsLowerCase.list.txt" type="stopWord" suffixDiffThreshold="0"/>
+	<dictionary ref="ForbiddenWordsUpperCase.list.txt" type="stopWord" suffixDiffThreshold="0"/>
+	<dictionary ref="GermanWord.list.txt" type="negative" suffixDiffThreshold="0"/>
+	<dictionary ref="LatinWord.list.txt" type="negative" suffixDiffThreshold="0"/>
+	<dictionary ref="morphologicTermsOfAnts.list.txt" type="stopWord" suffixDiffThreshold="0"/>
+	<dictionary ref="StopWord.list.txt" type="stopWord" suffixDiffThreshold="0"/>
+	<dictionary ref="stopWordsLatin.list.txt" type="stopWord" suffixDiffThreshold="0"/>
+	<pattern string=".*ing" isRef="false" type="negative"/>
+	<pattern string=".*y" isRef="false" type="negative"/>
+	<pattern string=".*al" isRef="false" type="negative"/>
+	<pattern string=".*an" isRef="false" type="negative"/>
+	<pattern string=".*like" isRef="false" type="negative"/>
+	<pattern string=".*ibus" isRef="false" type="negative"/>
+	<pattern string=".*que" isRef="false" type="negative"/>
+	<pattern string="[Ff]ig(ure)?s?" isRef="false" type="negative"/>
+	<pattern string="[Mm]*[Dd]?[Xx]?[Cc]*[Ll]?[Ii]?[Xx]*[Vv]?[Ii]*" isRef="false" type="negative"/>
+	<pattern string="groupFilterPattern.regEx.txt" isRef="true" type="negative"/>
+	<pattern string="nymFilterPattern.regEx.txt" isRef="true" type="negative"/>
+	<pattern string="typeFilterPattern.regEx.txt" isRef="true" type="negative"/>
+	<stemmingRule separator=";" matchEnding="s"/>
+	<stemmingRule separator=";" matchEnding="ed">;e</stemmingRule>
+	<stemmingRule separator=";" matchEnding="ly">;e</stemmingRule>
+	<stemmingRule separator=";" matchEnding="ies">y</stemmingRule>
+	<stemmingRule separator=";" matchEnding="ied">y</stemmingRule>
+	<stemmingRule separator=";" matchEnding="ing">;e</stemmingRule>
+	<stemmingRule separator=";" matchEnding="ish">;e</stemmingRule>
+	<stemmingRule separator=";" matchEnding="lly">l;ll</stemmingRule>
+	<stemmingRule separator=";" matchEnding="er">;e</stemmingRule>
+	<stemmingRule separator=";" matchEnding="est">;e</stemmingRule>
+	<rankGroup name="higher" capitalized="always" repeatedEpithets="false" inCombinations="true" doSuffixDiff="false" learningMode="teach">
+		<rank name="class" labeled="never" required="false" epithetDisplayPattern="@epithet" probability="5">
+			<labels separator=";">classis;class;cl.</labels>
+			<pattern string="[A-Z]+PHYCEAE" isRef="false" type="precision"/>
+			<pattern string="[A-Z][a-z]+phyceae" isRef="false" type="precision"/>
+			<pattern string="[A-Z]+MYCETES" isRef="false" type="precision"/>
+			<pattern string="[A-Z][a-z]+mycetes" isRef="false" type="precision"/>
+			<pattern string="[A-Z]+OPSIDA" isRef="false" type="precision"/>
+			<pattern string="[A-Z][a-z]+opsida" isRef="false" type="precision"/>
+		</rank>
+		<rank name="subClass" labeled="never" required="false" epithetDisplayPattern="@epithet" probability="5">
+			<labels separator=";">subclassis;subclass;subcl.;scl.</labels>
+			<pattern string="[A-Z]+MYCETIDAE" isRef="false" type="precision"/>
+			<pattern string="[A-Z][a-z]+mycetidae" isRef="false" type="precision"/>
+			<pattern string="[A-Z]+PHYCIDAE" isRef="false" type="precision"/>
+			<pattern string="[A-Z][a-z]+phycidae" isRef="false" type="precision"/>
+			<pattern string="[A-Z]+IDAE" isRef="false" type="precision"/>
+			<pattern string="[A-Z][a-z]+idae" isRef="false" type="precision"/>
+		</rank>
+		<rank name="superOrder" labeled="never" required="false" epithetDisplayPattern="@epithet" probability="5">
+			<labels separator=";">superorder;superordo;superord.</labels>
+			<pattern string="[A-Z]+ANAE" isRef="false" type="precision"/>
+			<pattern string="[A-Z][a-z]+anae" isRef="false" type="precision"/>
+		</rank>
+		<rank name="order" labeled="never" required="false" epithetDisplayPattern="@epithet" probability="5">
+			<labels separator=";">order;ordo;ord.</labels>
+			<pattern string="[A-Z]+ALES" isRef="false" type="recall"/>
+			<pattern string="[A-Z][a-z]+ales" isRef="false" type="recall"/>
+		</rank>
+		<rank name="subOrder" labeled="never" required="false" epithetDisplayPattern="@epithet" probability="5">
+			<labels separator=";">suborder;subordo;subord.;sord.</labels>
+			<pattern string="[A-Z]+INEAE" isRef="false" type="precision"/>
+			<pattern string="[A-Z][a-z]+ineae" isRef="false" type="precision"/>
+		</rank>
+	</rankGroup>
+	<rankGroup name="family" capitalized="always" repeatedEpithets="false" inCombinations="false" doSuffixDiff="false" learningMode="off">
+		<pattern string=".*an" isRef="false" type="negative"/>
+		<rank name="superFamily" labeled="never" required="false" epithetDisplayPattern="@epithet" probability="5">
+			<labels separator=";">superfamily;superfam;superfam.;superfamilia</labels>
+			<pattern string="[A-Z]+ACEA" isRef="false" type="precision"/>
+			<pattern string="[A-Z][a-z]+acea" isRef="false" type="precision"/>
+		</rank>
+		<rank name="family" labeled="never" required="false" epithetDisplayPattern="@epithet" probability="7">
+			<labels separator=";">family;fam;fam.;familia</labels>
+			<pattern string="[A-Z][a-z]+aceae" isRef="false" type="precision"/>
+			<pattern string="[A-Z]+ACEAE" isRef="false" type="precision"/>
+		</rank>
+		<rank name="subFamily" labeled="never" required="false" epithetDisplayPattern="@epithet" probability="7">
+			<labels separator=";">subfamily;subfam;subfam.;subfamilia;sf.;sfam.</labels>
+			<pattern string="[A-Z][a-z]+oideae" isRef="false" type="precision"/>
+			<pattern string="[A-Z]+OIDEAE" isRef="false" type="precision"/>
+		</rank>
+		<rank name="tribe" labeled="never" required="false" epithetDisplayPattern="@epithet" probability="3">
+			<labels separator=";">t.;tribe;tribus;tr.</labels>
+			<pattern string="[A-Z][a-z]+eae" isRef="false" type="precision"/>
+			<pattern string="[A-Z]+EAE" isRef="false" type="precision"/>
+		</rank>
+		<rank name="subTribe" labeled="never" required="false" epithetDisplayPattern="@epithet" probability="5">
+			<labels separator=";">subtribe;subtribus;subtr.;str.</labels>
+			<pattern string="[A-Z][a-z]+inae" isRef="false" type="precision"/>
+			<pattern string="[A-Z]+INAE" isRef="false" type="precision"/>
+		</rank>
+	</rankGroup>
+	<rankGroup name="genus" capitalized="always" repeatedEpithets="false" inCombinations="true" doSuffixDiff="true" learningMode="teach">
+		<dictionary ref="genus.static.list.txt" type="positive"/>
+		<dictionary ref="genus.plant.static.list.txt" type="positive"/>
+		<pattern string="[A-Z][a-z]{3,}" isRef="false" type="recall"/>
+		<pattern string="[A-Z]{4,}" isRef="false" type="recall"/>
+		<rank name="genus" labeled="never" required="true" epithetDisplayPattern="@epithet" probability="10">
+			<labels separator=";">genus;gen.</labels>
+		</rank>
+		<rank name="subGenus" labeled="sometimes" required="false" epithetDisplayPattern="(@epithet)" probability="5">
+			<labels separator=";">subgenus;subgen.;sgen.</labels>
+			<pattern string="\([A-Z][a-z]{3,}\)" isRef="false" type="recall"/>
+		</rank>
+		<rank name="section" labeled="sometimes" required="false" epithetDisplayPattern="sect. @epithet" probability="5">
+			<labels separator=";">section;sect.</labels>
+		</rank>
+		<rank name="subSection" labeled="sometimes" required="false" epithetDisplayPattern="(@epithet)" probability="5">
+			<labels separator=";">subsection;subsect.</labels>
+		</rank>
+		<rank name="series" labeled="sometimes" required="false" epithetDisplayPattern="(@epithet)" probability="5">
+			<labels separator=";">series;ser.</labels>
+			<pattern string="\(ser\.\s*[A-Z][a-z]{3,}\)" isRef="false" type="precision"/>
+		</rank>
+	</rankGroup>
+	<rankGroup name="species" capitalized="mixed" repeatedEpithets="true" inCombinations="true" doSuffixDiff="true" learningMode="teach">
+		<dictionary ref="species.static.list.txt" type="positive"/>
+		<pattern string="[a-z]{3,}(\-[a-z]{3,})?" isRef="false" type="recall"/>
+		<pattern string=".*an" isRef="false" type="negative"/>
+		<rank name="species" labeled="never" required="true" epithetDisplayPattern="@epithet" probability="9">
+			<labels separator=";">species;sp.</labels>
+		</rank>
+		<rank name="subSpecies" labeled="sometimes" required="false" epithetDisplayPattern="subsp. @epithet" probability="6">
+			<labels separator=";">subspecies;subsp.;ssp.;stirps;st.;race;r.</labels>
+		</rank>
+		<rank name="variety" labeled="sometimes" required="false" epithetDisplayPattern="var. @epithet" probability="5">
+			<labels separator=";">variety;varietas;variatio;var.;v.</labels>
+		</rank>
+		<rank name="subVariety" labeled="sometimes" required="false" epithetDisplayPattern="subvar. @epithet" probability="5">
+			<labels separator=";">subvariety;subvarietas;subvariatio;subvar.;svar.;sv.</labels>
+		</rank>
+		<rank name="form" labeled="sometimes" required="false" epithetDisplayPattern="f. @epithet" probability="5">
+			<labels separator=";">form;forma;f.</labels>
+		</rank>
+	</rankGroup>
+	<authors allowEmbedded="true">
+		<dictionary ref="authors.static.list.txt"/>
+		<pattern string="[A-Z]((\.\s)?\-[A-Z])?\." isRef="false" type="part"/>
+		<pattern string="\([A-Z]((\.\s)?\-[A-Z])?\.\)" isRef="false" type="positive"/>
+		<pattern string="lastName.regEx.txt" isRef="true" type="positive"/>
+		<nameStopWords separator="|">sensu|of|von|van|von der|van der|von den|van den|dos|del|da|de|do</nameStopWords>
+		<nameListEndSeparators separator="|">ex|ex.|sensu|&amp;</nameListEndSeparators>
+		<nameListSeparators separator="|">ex|ex.|sensu|&amp;</nameListSeparators>
+	</authors>
+	<rules cleanupAfter="true">
+		<ruleSet maxRounds="0">
+			<rule match="p[plau]+p" action="promote" removeNested="true" likelyMatch="false"/>
+			<rule match="n+" action="remove" removeNested="false" likelyMatch="false"/>
+			<rule match="un+" action="remove" removeNested="false" likelyMatch="false"/>
+			<rule match="an+" action="remove" removeNested="false" likelyMatch="false"/>
+		</ruleSet>
+		<ruleSet maxRounds="0">
+			<rule match="p+l" action="promote" removeNested="true" likelyMatch="false"/>
+			<rule match="p+u" action="promote" removeNested="true" likelyMatch="false"/>
+			<rule match="p+[plaun]*p+" action="promote" removeNested="true" likelyMatch="false"/>
+			<rule match="[bla]p[plau]*p" action="promote" removeNested="true" likelyMatch="false"/>
+			<rule match="[bla]p+" action="promote" removeNested="true" likelyMatch="false"/>
+		</ruleSet>
+	</rules>
+</omniFat>

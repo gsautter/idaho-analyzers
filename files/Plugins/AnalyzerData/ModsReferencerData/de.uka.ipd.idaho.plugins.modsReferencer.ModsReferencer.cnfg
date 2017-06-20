@@ -1,0 +1,9 @@
+//GenerateIdType|HNS-PUB
+//ServerURL|http%3A%2F%2Fplazi2.cs.umb.edu%2Fexist%2Frest%2Fdb%2Fplazi_mods%2F
+//ServerUrlSuffix|_mods.xml
+//UrlPattern|http%3A%2F%2Fantbase.org%2Fants%2Fpublications%2F%40ModsID%2F%40ModsID.pdf
+//xmlns:mods|http%3A%2F%2Fwww.loc.gov%2Fmods%2Fv3
+generateIdType|Plazi-MODS
+modsServerPassPhrase|MODS+rules+it+all%21
+modsServerURL|http%3A%2F%2Fplazi2.cs.umb.edu%3A8080%2FModsServer%2Fmods
+modsUrlPattern|http%3A%2F%2Fantbase.org%2Fants%2Fpublications%2F%40ModsID%2F%40ModsID.pdf

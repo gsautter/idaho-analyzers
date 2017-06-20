@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+	Does all the packing. That is, creates the files that live in dist/
+-->
+
+<project name="dist">
+	<target name="zip" depends="servlet">
+		<delete file="${zip.file}" />
+		<zip destfile="${zip.file}">
+			<fileset dir="${build.home}">
+				<!-- Don't put the classes into this twice -->
+				<exclude name="classes/**" />
+			</fileset>
+			<fileset dir="${web.home}" />
+		</zip>
+	</target>
+	
+	<target name="servlet">
+		<delete file="${jar.servlet}" />
+		<jar destfile="${jar.servlet}">
+			<fileset dir="${build.home}/classes" includes="**/**.class"/>
+			<fileset dir="${src.home}" includes="**/**.java"/>
+			<fileset dir="." includes="LICENSE.txt"/>
+		</jar>
+	</target>
+	
+	<target name="manager">
+		<delete file="${jar.manager}" />
+		<jar destfile="${jar.manager}">
+			<fileset dir="${build.home}/classes" includes="**/GoldenGateWebServiceConstants.class"/>
+			<fileset dir="${build.home}/classes" includes="**/GoldenGateWebServiceConstants$**.class"/>
+			<fileset dir="${build.home}/classes" includes="**/WebService.class"/>
+			<fileset dir="${build.home}/classes" includes="**/WebService$**.class"/>
+			<fileset dir="${build.home}/classes" includes="**/WebServiceManager.class"/>
+			<fileset dir="${build.home}/classes" includes="**/WebServiceManager$**.class"/>
+			<fileset dir="${src.home}" includes="**/GoldenGateWebServiceConstants.java"/>
+			<fileset dir="${src.home}" includes="**/WebService.java"/>
+			<fileset dir="${src.home}" includes="**/WebServiceManager.java"/>
+			<fileset dir="." includes="LICENSE.txt"/>
+		</jar>
+	</target>
+</project>

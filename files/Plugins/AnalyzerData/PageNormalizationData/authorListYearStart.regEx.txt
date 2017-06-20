@@ -1,0 +1,1 @@
+(<<authorLastNameFirst>>((\,|\sand|\s\&)\s(<<authorLastNameFirst>>|<<authorLastNameLast>>))*+\,?+\s<<year>>(\.|\:)?)

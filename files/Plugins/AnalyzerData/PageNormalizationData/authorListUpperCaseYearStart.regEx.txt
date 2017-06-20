@@ -1,0 +1,1 @@
+(<<authorLastNameUpperCaseFirst>>((\,|\sAND|\s\&)\s(<<authorLastNameUpperCaseFirst>>|<<authorLastNameUpperCaseLast>>|<<authorLastNameFirst>>|<<authorLastNameLast>>))*+\,?+\s<<year>>\.?+)

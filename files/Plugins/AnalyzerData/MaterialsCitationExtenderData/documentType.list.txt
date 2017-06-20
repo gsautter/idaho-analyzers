@@ -1,0 +1,14 @@
+Zeitschrift/Artikel
+Zeitschrift
+Artikel
+Buchserie
+Buch
+Kapitel
+Tagungsband/Kongressband
+Thesis/Bericht/Gutachten
+Dissertation
+Masterarbeit
+Bachelorarbeit
+Diplomarbeit
+Projektarbeit/Semesterarbeit
+Gutachten

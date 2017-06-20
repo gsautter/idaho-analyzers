@@ -1,0 +1,343 @@
+// field1 = GPath1.1 (default)
+// field1 = GPath1.2 (fallback 1)
+// field1 = GPath1.3 (fallback 2)
+// field2 = GPath2
+// field3 (has to exist in CSV, but presumably no value available from document)
+// field4 = GPath4
+// etc.
+
+hGenus = $treat/taxonomicName[1]/@genus
+hGenus = $mc/@taxonomicName--genus
+hSpecies = $treat/taxonomicName[1]/@species
+hSpecies = $mc/@taxonomicName--species
+dummy3
+dummy4
+dummy5
+!collectingCountry = $mc/collectingCountry
+collectingCountry = $mc/@country
+collectingCountry = $doc/collectingCountry
+collectingRegion = $mc/collectingRegion
+collectingRegion = $mc/@stateProvince
+collectingRegion = $doc/collectingRegion
+dummy8
+municipality = $mc/@municipality
+!location = $mc/@location
+!latitude = $mc/@latitude
+!longitude = $mc/@longitude
+elevation = $mc/@elevation
+longLatPrecision = $mc/@longLatPrecision
+dummy15
+dummy16
+locationRemarks = $mc/locationRemarks
+dummy18
+dummy19
+dummy20
+elevation = $mc/elevation
+microHabitat = $mc/microHabitat
+dummy23
+biotopType = $mc/@biotopType
+dummy25
+slopeAngle = $mc/@slopeAngle
+slopeDirection = $mc/@slopeDirection
+soilExternalInfluence = $mc/soilExternalInfluence
+dummy29
+dummy30
+verbatimLocation = $mc/@verbatimLocation
+dummy32
+dummy33
+soilType = $mc/@soilType
+soilTexture = $mc/@soilTexture
+soilLayer = $mc/@soilLayer
+dummy37
+dummy38
+dummy39
+dummy40
+dummy41
+phValueRange = $mc/@phValueRange
+phValueMethod = $mc/@phValueMethod
+soilHumusType = $mc/@soilHumusType
+bedrock = $mc/@bedrock
+dummy46
+dummy47
+dummy48
+dummy49
+dummy50
+dummy51
+dummy52
+dummy53
+dummy54
+dummy55
+dummy56
+dummy57
+dummy58
+dummy59
+dummy60
+dummy61
+dummy62
+dummy63
+dummy64
+dummy65
+dummy66
+dummy67
+dummy68
+dummy69
+dummy70
+dummy71
+dummy72
+dummy73
+dummy74
+dummy75
+dummy76
+dummy77
+dummy78
+dummy79
+dummy80
+dummy81
+phValueLabel = $mc/@phValueLabel
+dummy83
+dummy84
+plantCombination = $mc/plantCombination
+dummy86
+dummy87
+dummy88
+dummy89
+plantTaxonName = $mc/@plantTaxonName
+dummy91
+dummy92
+dummy93
+dummy94
+dummy95
+dummy96
+dummy97
+dummy98
+dummy99
+dummy100
+dummy101
+dummy102
+dummy103
+dummy104
+dummy105
+dummy106
+dummy107
+dummy108
+dummy109
+dummy110
+dummy111
+dummy112
+dummy113
+dummy114
+dummy115
+dummy116
+dummy117
+dummy118
+dummy119
+dummy120
+dummy121
+dummy122
+dummy123
+dummy124
+dummy125
+dummy126
+!collectingDate = $mc/@collectingDate
+collectingDate = $doc[count(./collectingDate[starts-with(./@value, $mc/@date--value)]) = 1]/collectingDate[starts-with(./@value, $mc/@date--value)]/@value
+collectingDate = $mc/@date--value
+//collectingDate = $mc/@collectingDateMin
+//collectingDate = $mc/@collectingDateMax
+!collectingMethod = $mc/@collectingMethod
+collectingMethod = $mc/collectingMethod
+collectingMethod = $doc/collectingMethod
+!collectorName = $mc/@collectorName
+collectorName = $ref/@author
+dummy130
+dummy131
+dummy132
+dummy133
+dummy134
+dummy135
+dummy136
+dummy137
+dummy138
+dummy139
+dummy140
+soilLayer = $mc/@soilLayer
+dummy142
+dummy143
+dummy144
+dummy145
+extractionMethod = $mc/@extractionMethod
+extractionMethod = $doc/extractionMethod
+dummy147
+dummy148
+dummy149
+dummy150
+dummy151
+dummy152
+dummy153
+dummy154
+family = $treat/taxonomicName[1]/@family
+family = $mc/@taxonomicName--family
+!genus = $treat/taxonomicName[1]/@genus
+genus = $mc/@taxonomicName--genus
+species = $treat/taxonomicName[1]/@species
+species = $mc/@taxonomicName--species
+taxonAuthorityName = $treat/taxonomicName[1]/@authorityName
+taxonAuthorityName = $mc/@taxonomicName--authorityName
+taxonAuthorityYear = $treat/taxonomicName[1]/@authorityYear
+taxonAuthorityYear = $mc/@taxonomicName--authorityYear
+taxonAuthorityInBrackets = ($treat/taxonomicName[1]/#last = ')')
+dummy161
+dummy162
+dummy163
+dummy164
+dummy165
+dummy166
+dummy167
+dummy168
+dummy169
+dummy170
+dummy171
+dummy172
+dummy173
+dummy174
+dummy175
+specimenLifeStage = $mc/@specimenLifeStage
+specimenState = $mc/@specimenState
+specimenSex = $mc/@specimenSex
+dummy179
+dummy180
+dummy181
+specimenCountS = $mc/specimenCount
+specimenCountC = $mc/specimenCount
+dummy184
+dominanceClass = $mc/@dominanceClass
+dummy186
+dummy187
+dummy188
+dummy189
+//identifiedBy = /identifiedBy
+dummy190
+determinationType = $mc/@determinationType
+determinationType = $doc/@determinationType
+//dateIdentified = /dateIdentified
+dummy192
+//identificationReferences = /identificationReferences
+dummy193
+//identificationVerificationStatus = /identificationVerificationStatus
+determinationReliability = $mc/@determinationReliability
+determinationReliability = $doc/determinationReliability
+//identificationQualifier = /identificationQualifier
+dummy195
+dummy196
+//identificationRemarks = /identificationRemarks
+dummy197
+specimenPreparation = $mc/@specimenPreparation
+specimenPreparation = $doc/specimenPreparation
+specimenPreparationMedium = $mc/@specimenPreparationMedium
+specimenPreparationMedium = $doc/specimenPreparationMedium
+dummy200
+dummy201
+dummy202
+dummy203
+dummy204
+dummy205
+dummy206
+dummy207
+dummy208
+dummy209
+dummy210
+dummy211
+dummy212
+dummy213
+dummy214
+dummy215
+dummy216
+dummy217
+dummy218
+dummy219
+dummy220
+dummy221
+dummy222
+dummy223
+dummy224
+dummy225
+dummy226
+dummy227
+bodyLength = $treat/bodyLength/@value
+bodyLengthUnit = $treat/bodyLength/@unit
+bodyWidth = $treat/bodyWidth/@value
+bodyWidthUnit = $treat/bodyWidth/@unit
+dummy232
+dummy233
+dummy234
+dummy235
+dummy236
+dummy237
+dummy238
+dummy239
+dummy240
+dummy241
+dummy242
+dummy243
+dummy244
+dummy245
+dummy246
+dummy247
+dummy248
+dummy249
+sourceType = ('journal article')
+sourceVolumeTitle = $ref/volumeTitle
+sourceVolumeTitle = (concat($ref/journal, $ref/volume))
+sourceTitle = $ref/title
+dummy253
+sourceAuthor = $ref/author
+dummy255
+dummy256
+dummy257
+dummy258
+dummy259
+dummy260
+dummy261
+dummy262
+sourceDate = $ref/year
+dummy264
+dummy265
+dummy266
+dummy267
+sourceVolume = $ref/volume
+dummy269
+sourcePagination = $ref/pagination
+dummy271
+dummy272
+dummy273
+dummy274
+dummy275
+specimenTypeStatus = $mc/typeStatus
+dummy277
+dummy278
+dummy279
+dummy280
+dummy281
+dummy282
+dummy283
+dummy284
+dummy285
+dummy286
+dummy287
+dummy288
+dummy289
+specimenCollectionCode = $mc/@collectionCode
+specimenCollectionCode = $mc/collectionCode
+specimenCollectionCode = $treat/collectionCode
+specimenCollectionCode = $doc/collectionCode
+dummy291
+dummy292
+specimenCode = $mc/@specimenCode
+specimenCode = $mc/specimenCode
+dummy294
+dummy295
+dummy296
+dummy297
+dummy298
+dummy299
+dummy300
+

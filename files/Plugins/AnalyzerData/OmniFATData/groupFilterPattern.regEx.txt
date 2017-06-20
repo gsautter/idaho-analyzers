@@ -1,0 +1,1 @@
+[^\s]*((group(s)?)|(gruppe(n)?))

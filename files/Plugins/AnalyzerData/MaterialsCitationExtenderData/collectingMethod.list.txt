@@ -1,0 +1,40 @@
+Visueller Nachweis
+  Foto
+
+Substratprobe (Gewinnung der Tiere im Labor)
+  Stechzylinder oder Stechrahmen
+
+Handfang (Gewinnung der Tiere in situ)
+  Einzeltierfang mit Pinzette, Pinsel etc.
+  Sieben
+    Käfersieb (diverse Maschenweiten!)
+    Winker-Moczarski-Sieb
+  Gießprobe
+    mit Austreibrahmen
+    ohne Austreibrahmen
+  Exhaustor
+    D-Vac (motorgetriebener Bodentiersauger)
+  Fogging
+  Kescher (Streifnetz)
+  Klopfen
+    Arlé-Methode (Hüther 1993)
+  Lichtfang
+  Elektrofang
+    Elektro-Oktett nach Thielemann
+
+Fallenfang
+  Bodenfalle
+    Bodenfalle mit Eklektor
+  Streubeutel
+    Eisenbeis-Minicontainer
+  Klebefalle (z. B. Leimring)
+  Malaise-Falle
+  Fangschale
+  Farbschale
+  Fensterfalle
+  Eklektorfalle
+    Bodeneklektor
+    Baumeklektor
+    Photoeklektor
+  Zeitfalle
+  Richtungsfalle

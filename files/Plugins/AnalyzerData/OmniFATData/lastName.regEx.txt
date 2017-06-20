@@ -1,0 +1,1 @@
+((Mc|Mac|O\'|D\'|Da|De|Do|Del|Della|Dos)?[A-Z](([a-z]{3,})|  ([a-z]{0,2}\.?)))(\-((Mc|Mac|O\'|D\'|Da|De|Do|Del|Della|Dos)?[A-Z](([a-z]{3,})|   ([a-z]{0,2}\.?))))?

@@ -1,0 +1,13 @@
+nicht differenziert
+adult
+subadult
+interkalar
+juvenil
+Larve
+Nymphe
+Protonymphe
+Deutonymphe
+Tritonymphe
+Ei
+Puppe
+Exuvie

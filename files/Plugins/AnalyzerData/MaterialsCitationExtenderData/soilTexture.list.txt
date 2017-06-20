@@ -1,0 +1,54 @@
+Ton
+  Lehmton
+    reiner Ton
+    schwach schluffiger Ton
+    lehmiger Ton
+    schwach sandiger Ton
+  Schluffton
+    mittel schluffiger Ton
+    stark schluffiger Ton
+    mittel toniger Lehm
+Lehm
+  Tonlehm
+    sandig-toniger Lehm
+    mittel sandiger Ton
+    stark sandiger Ton
+  Normallehm
+    schwach toniger Lehm
+    schwach sandiger Lehm
+    mittel sandiger Lehm
+    stark sandiger Lehm
+  Sandlehm
+    schluffig-lehmiger Sand
+    stark lehmiger Sand
+    mittel toniger Sand
+Schluff
+  Tonschluff
+    stark toniger Schluff
+    schluffiger Lehm
+  Lehmschluff
+    schwach toniger Schluff
+    mittel toniger Schluff
+    sandig-lehmiger Schluff
+  Sandschluff
+    sandiger Schluff
+    reiner Schluff
+Sand
+  reiner Sand
+  Feinsand
+    mittelsandiger Feinsand
+    grobsandiger Feinsand
+  Mittelsand
+    feinsandiger Mittelsand
+    grobsandiger Mittelsand
+  Grobsand
+    feinsandiger Grobsand
+    mittelsandiger Grobsand
+  Schluffsand
+    mittel schluffiger Sand
+    stark schluffiger Sand
+  Lehmsand
+    schwach toniger Sand
+    schwach schluffiger Sand
+    schwach lehmiger Sand
+    mittel lehmiger Sand

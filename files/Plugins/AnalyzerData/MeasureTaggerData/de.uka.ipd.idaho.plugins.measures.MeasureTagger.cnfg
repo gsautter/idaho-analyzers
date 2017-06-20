@@ -1,0 +1,16 @@
+measure.bodyLength.color|FF2222
+measure.bodyLength.label|Body+Length
+measure.bodyLength.maxMagnitude|0
+measure.bodyLength.minMagnitude|-6
+measure.bodyLength.unit|m
+measure.bodyMass.color|FF4400
+measure.bodyMass.label|Body+Mass
+measure.bodyMass.maxMagnitude|3
+measure.bodyMass.minMagnitude|-9
+measure.bodyMass.unit|kg
+measure.bodyWidth.color|FF4444
+measure.bodyWidth.label|Body+Width
+measure.bodyWidth.maxMagnitude|0
+measure.bodyWidth.minMagnitude|-6
+measure.bodyWidth.unit|m
+noMeasureOption|%3Cnot+a+relevant+measure%3E

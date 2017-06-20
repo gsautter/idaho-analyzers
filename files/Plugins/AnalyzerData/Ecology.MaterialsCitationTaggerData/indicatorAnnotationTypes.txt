@@ -1,0 +1,4 @@
+collectionCode
+date
+geoCoordinate
+typeStatus

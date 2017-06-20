@@ -1,0 +1,34 @@
+Extraktion
+Baermann-Trichter
+Baermann-Trichter, modifiziert
+Berlese-Trichter
+Berlese-Tullgren-Trichter, modifiziert
+Flotation nach Bachelier
+Flotation nach Cobb
+Flotation nach Fenwick
+Flotation nach Ladell
+Gazebeutelmethode nach Reisinger
+Glaskolbenmethode nach Seinhorst
+Handauszählung/Handauslese
+Kältefilter nach Uhlig
+Kempson-Extraktor
+MacFadyen-Extraktor
+MacFadyen-Extraktor, modifiziert
+Naßsieben (Schlämmen)
+Naßtrichter nach Graefe
+Naßtrichter nach O'Connor
+Oostenbrink-Elutriator
+Oostenbrink-Siebschale
+Sandschichtmethode nach Nielsen
+Siebmethode nach Cobb
+Sprühmethode nach Seinhorst
+Spülapparat nach Seinhorst
+Trockensieben
+Trockentrichter
+Tullgren-Trichter
+Vibrationsflotation
+Winkler-Extraktor
+Zentrifugiermethode
+Zweiphasentrennung
+Direkte Mikroskopie des Bodens
+sonstige Extraktionsmethode

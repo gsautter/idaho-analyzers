@@ -1,0 +1,4 @@
+subSpecies race;r.;r
+subSpecies stirps;st.;st
+subSpecies subsp;ssp
+variety var

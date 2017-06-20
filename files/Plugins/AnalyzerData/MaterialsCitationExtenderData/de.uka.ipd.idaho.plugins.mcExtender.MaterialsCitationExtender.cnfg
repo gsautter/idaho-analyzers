@@ -1,0 +1,180 @@
+//	attribute.testOne.dataFile|testOne.list.txt
+//	attribute.testOne.label|Test+Attribute+1
+//	attribute.testTwo.dataFile|testTwo.list.txt
+//	attribute.testTwo.label|Test+Attribute+2
+//
+//	Edaphobase attributes:
+//
+notApplicableOption|<not+applicable+%2F+unknown>
+
+attributeGroupOrder|collecting+determination+specimens+species+biotop+soil+ph+location+literature
+
+group.collecting.attributes|collectingMethod+extractionMethod+specimenPreparation+specimenPreparationMedium
+group.collecting.color|6666FF
+group.determination.attributes|determinationType+determinationAccuracy+determinationReliability
+group.determination.color|8B66FF
+group.specimens.attributes|specimenState+specimenLifeStage+specimenSex
+group.specimens.color|B066FF
+//group.species.attributes|reproductionMode+feedingEcology
+//group.species.color|66D0FF
+
+group.biotop.attributes|microHabitat+biotopType+plant+plantCombination+dominanceClass
+group.biotop.color|80AA00
+group.soil.attributes|soilType+soilTexture+soilLayer+bedrock+soilHumusType+soilExternalInfluence
+group.soil.color|AA5500
+group.ph.attributes|phValueLabel+phValueMethod
+group.ph.color|DD00AA
+
+group.location.attributes|stateProvince+slopeAngle+slopeDirection
+group.location.color|FFFF00
+//group.literature.attributes|documentGenre+documentType
+//group.literature.color|FF6666
+
+//	Sammel-Nachweismethode ==> collectingMethod
+attribute.collectingMethod.dataFile|collectingMethod.list.txt
+attribute.collectingMethod.label|Collecting+Method
+
+//	Extraktionsmethode
+attribute.extractionMethod.dataFile|extractionMethod.list.txt
+attribute.extractionMethod.label|Extraction+Method
+
+//	Präparatform
+attribute.specimenPreparation.dataFile|specimenPreparation.list.txt
+attribute.specimenPreparation.label|Specimen+Preparation
+
+//	Konservierungsmittel und Einbettungsmedien
+attribute.specimenPreparationMedium.dataFile|specimenPreparationMedium.list.txt
+attribute.specimenPreparationMedium.label|Specimen+Preparation+Medium
+
+
+//	Aktiv- / Dauerstadien
+attribute.specimenState.dataFile|specimenState.list.txt
+attribute.specimenState.label|Specimen+State
+
+//	Entwicklungsstadium
+attribute.specimenLifeStage.dataFile|specimenLifeStage.list.txt
+attribute.specimenLifeStage.label|Specimen+Life+Stage
+
+//	Geschlecht ==> specimenSex
+attribute.specimenSex.dataFile|specimenSex.list.txt
+attribute.specimenSex.label|Specimen+Sex
+
+
+//	Fortpflanzungsweise
+attribute.reproductionMode.dataFile|reproductionMode.list.txt
+attribute.reproductionMode.label|Reproduction+Mode
+
+//	Ernährungstyp
+attribute.feedingEcology.dataFile|feedingEcology.list.txt
+attribute.feedingEcology.label|Feeding+Ecology
+
+
+//	Bestimmungstypen
+attribute.determinationType.dataFile|determinationType.list.txt
+attribute.determinationType.label|Determination+Type
+
+//	Bestimmungsgenauigkeit
+attribute.determinationAccuracy.dataFile|determinationAccuracy.list.txt
+attribute.determinationAccuracy.label|Determination+Accuracy
+
+//	Vertrauenswürdigkeit der Bestimmung
+attribute.determinationReliability.dataFile|determinationReliability.list.txt
+attribute.determinationReliability.label|Determination+Reliability
+
+
+//	Bodentyp ==> soilType.csv   TODO ask Thomas about hierarchy, and about most sensible ordering
+attribute.soilType.dataFile|soilType.labeled.list.csv
+attribute.soilType.label|Soil+Type
+attribute.soilType.listColumnName|soilTypeLabel
+attribute.soilType.attributeColumnNames|soilTypeCode
+
+//	Bodenart ==> soilTexture.csv   TODO ask Thomas about most sensible ordering
+attribute.soilTexture.dataFile|soilTexture.list.txt
+attribute.soilTexture.label|Soil+Texture
+
+//	Beprobter Bodenhorizont
+attribute.soilLayer.dataFile|soilLayer.list.txt
+attribute.soilLayer.label|Soil+Layer
+
+//	Beeinflussung
+attribute.soilExternalInfluence.dataFile|soilExternalInfluence.list.txt
+attribute.soilExternalInfluence.label|External+Influence
+
+//	Humusformen
+attribute.soilHumusType.dataFile|soilHumusType.list.txt
+attribute.soilHumusType.label|Humus+Type
+
+//	Grundgestein
+attribute.bedrock.dataFile|bedrock.list.txt
+attribute.bedrock.label|Bedrock
+
+
+
+//	pH-Wert
+attribute.phValueLabel.dataFile|phValue.list.csv
+attribute.phValueLabel.label|pH+Value
+attribute.phValueLabel.listColumnName|phValueLabel
+attribute.phValueLabel.attributeColumnNames|phValueRange
+
+//	Methoden zur pH-Wert-Messung
+attribute.phValueMethod.dataFile|phValueMethod.list.txt
+attribute.phValueMethod.label|pH+Value+Measurement+Method
+
+
+//	Dominanzklassen
+attribute.dominanceClass.dataFile|dominance.list.csv
+attribute.dominanceClass.label|Dominance+Class
+attribute.dominanceClass.listColumnName|dominanceClass
+attribute.dominanceClass.attributeColumnNames|dominanceRange
+
+//	Biotop-Typ
+attribute.biotopType.dataFile|biotopTypes.Germany.labeled.list.csv
+attribute.biotopType.label|Biotop+Type
+attribute.biotopType.listColumnName|biotopTypeLabel
+attribute.biotopType.attributeColumnNames|biotopTypeCode
+
+//	Mikro-Habitat
+attribute.microHabitat.dataFile|microHabitat.list.txt
+attribute.microHabitat.label|Micro+Habitat
+attribute.microHabitat.multiSelect|true
+
+//	Pflanzen
+attribute.plant.dataFile|plants.list.csv
+attribute.plant.label|Plant
+attribute.plant.listColumnName|plantVenacularName
+attribute.plant.attributeColumnNames|plantTaxonName+plantTaxonType
+attribute.plant.multiSelect|true
+
+//	Pflanzengesellschaft
+attribute.plantCombination.dataFile|plantCombination.list.csv
+attribute.plantCombination.label|Plant+Combination
+attribute.plantCombination.listColumnName|plantCombinationList
+attribute.plantCombination.attributeColumnNames|plantCombinationName+plantCombinationRank
+
+//	Biogeographische Region ==> deactivate, let Edaphobase handle it using coordinates
+
+//	Bundesland
+attribute.stateProvince.dataFile|stateProvince.Germany.list.csv
+attribute.stateProvince.label|State+Province
+attribute.stateProvince.listColumnName|stateGerman
+attribute.stateProvince.attributeColumnNames|state
+
+//	Hang-Ausrichtung
+attribute.slopeDirection.dataFile|slopeDirection.list.txt
+attribute.slopeDirection.label|Slope+Direction
+
+//	Gefälle
+attribute.slopeAngle.dataFile|slopeAngle.list.csv
+attribute.slopeAngle.label|Slope+Angle
+attribute.slopeAngle.listColumnName|slopeLabel
+attribute.slopeAngle.attributeColumnNames|slopeAngle
+
+
+//	Quellspezifika
+attribute.documentGenre.dataFile|documentGenre.list.txt
+attribute.documentGenre.label|Document+Genre
+
+//	Quellarten
+attribute.documentType.dataFile|documentType.list.txt
+attribute.documentType.label|Document+Type
+

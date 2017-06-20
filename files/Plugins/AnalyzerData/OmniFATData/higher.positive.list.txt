@@ -1,0 +1,14 @@
+// positives for (nd|like|ts|ibus|ls|nt|th|uit|oid|ed|tic|ds)
+Ameboids
+Chonetoid
+Schineriids
+Ameboids
+Chonetoid
+Coleolids
+Echinoid
+Eurosids
+Goniothecids
+
+// positives for (ose|tle|rs|lt|nce)
+Chafers
+Rotifers

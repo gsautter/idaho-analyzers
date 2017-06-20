@@ -1,0 +1,30 @@
+Aeromorpher Humus
+  Mull
+    L-Mull
+    Sandmull
+    Kalkmull
+    F-Mull (Of-Mull)
+  Moder
+    Mullartiger Moder
+    Rohhumus
+    Rohhumusartiger Moder
+Hydromorpher Humus
+  Feuchthumus
+    Feuchtmoder
+    Feuchtmull
+    Feuchtrohhumus
+  Nasshumus
+    Anmoor
+  Torf
+    Niedermoortorf
+    Übergangsmoortrorf
+    Hochmoortorf
+Subhydrischer Humus
+  Dy
+  Gyttja
+  Saprobel
+Sonderhumus
+  Graswurzelfilz-Moder
+  Hagerhumus
+  Streunutzungs-Rohhumus
+  Tangelhumus (syn. Magerhumus, F-Rohhumus)

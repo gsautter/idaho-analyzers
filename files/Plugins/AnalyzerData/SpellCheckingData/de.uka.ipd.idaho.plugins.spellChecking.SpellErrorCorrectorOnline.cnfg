@@ -1,0 +1,5 @@
+acceptFrequencyThreshold|3
+languageMatchThreshold|67
+maximumSplitParts|3
+rememberFrequencyThreshold|5
+suggestionDistanceThreshold|3

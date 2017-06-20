@@ -1,0 +1,109 @@
+0. Boden
+
+1. Tiernester
+1.1 Tiernest - Säugetier
+1.1.1 Tiernest - Säugetier - Nagetier
+1.1.2 Tiernest - Säugetier - Insektenfresser
+1.2 Tiernest - Vogel
+1.2.1 Zaunkönig
+1.2.2 Uferschwalbe
+1.2.3 Singdrossel
+1.3 Tiernest - Gliederfüßer (excl. Insekten)
+1.4 Tiernest - Insekten
+1.4.1 Tiernest - Insekten - Hymenopteren (excl. Ameisen)
+1.4.1.1 verlassen
+1.4.1.2 bewohnt
+1.4.2 Tiernest - Insekten - Ameisen
+
+2. an Tieren
+2.1 an Säugetieren
+2.2 an Gliederfüßern (excl. Insekten)
+2.3 an Insekten
+
+3. Tierkot, Mist
+3.1 Kot
+3.1.1 Kot – Pflanzenfresser
+3.1.2 Kot - Fleischfresser
+3.1.3 Fledermauskot
+3.2 Mist
+
+4. Pflanzenabfälle, Kompost
+4.1 Pflanzenabfälle - Obst
+4.2 Pflanzenabfälle - Gemüse
+4.3 Pflanzenabfälle - Streu
+4.3.1 Pflanzenabfälle - Laubstreu
+4.3.1.1 Pflanzenabfälle - Laubstreu - frisch gefallen / vorjährig
+4.3.1.2 Pflanzenabfälle - Laubstreu - verrottend
+4.3.2 Pflanzenabfälle - Nadelstreu
+4.4 Kompost
+4.4.1 Kompost jung
+4.4.2 Kompost alt
+4.5 Mulch
+4.5.1 Mulch - Holzschnitze
+4.5.2 Mulch - Rinde
+4.6 Heu, Stroh
+
+5. im Unterwuchs
+5.1 Farn
+5.2 Moos
+5.3 Flechte
+5.4 Alge
+5.5 Höhere Pflanze
+5.5.1 Höhere Pflanze - Wurzel
+5.5.2 Höhere Pflanze - Stamm
+5.5.3 Höhere Pflanze - Blatt
+5.5.3.1 Höhere Pflanze - Blatt - Nadelbaum
+5.5.3.2 Höhere Pflanze - Blatt - Laubbaum
+5.5.4 Rinde
+5.5.4.1 Höhere Pflanze - auf Rinde
+5.5.4.2 Höhere Pflanze - unter Rinde
+5.5.4.2.1 Höhere Pflanze - unter Rinde - Nadelbaum
+5.5.4.2.2 Höhere Pflanze - unter Rinde - Laubbaum
+5.5.5 an Gräsern
+5.5.5.1 an Süßgräsern
+5.5.5.2 an Sauergräsern
+5.6 Pilz
+
+6. Totholz
+6.1 Baumstumpf
+6.1.1 Baumstumpf - Nadelbaum
+6.1.2 Baumstumpf - Laubbaum
+6.2 toter Baumstamm
+6.2.1 in totem Baumstamm
+6.2.2 unter totem Baumstamm
+6.3 tote Äste und Zweige
+6.4 Holzstapel
+6.5 bearbeitetes Holz
+6.6 Totholz - Rinde
+6.6.1 Rindenabfall
+6.6.2 Totholz - auf Rinde
+6.6.3 Totholz - unter Rinde
+6.6.3.1 Totholz - unter Rinde - Nadelbaum
+6.6.3.2 Totholz - unter Rinde - Laubbaum
+6.7 in Totholz (nicht näher bezeichnet, keine Angabe ob Stamm, Ast, Wurzel,...)
+6.7.1 in Totholz - Nadelbaum
+6.7.2 in Totholz - Laubbaum
+
+7. im und am Wasser
+7.1 am Wasser - im Spülsaum
+7.1.1 am Wasser - im Spülsaum - marin
+7.1.2 am Wasser - im Spülsaum - Süßwasser
+7.1.3 am Wasser - im Spülsaum - Brackwasser
+7.2 am Wasser - im (wechselfeuchten) Sand
+7.3 im Grundwasser
+7.3.1 im Grundwasser - marin
+7.3.2 im Grundwasser - Süßwasser
+7.3.3 im Grundwasser - Brackwasser
+
+8. Steine, Felsen
+8.1 auf Steinen
+8.2 unter Steinen
+8.3 im Stein
+8.4 an Felsen
+
+9. Sonstiges
+9.1 Kehricht
+9.2 Aas
+9.3 Schrott, Müll
+9.4 (Moor-)Bulten
+9.5 anthropogene Habitate (Aquarien, Terrarien, Zoos...)

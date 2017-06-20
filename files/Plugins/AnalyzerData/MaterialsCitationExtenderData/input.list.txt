@@ -1,0 +1,836 @@
+Aktiv-/ Dauerstadien ==> specimenState
+
+Aktivstadium
+Simplex
+Dauerstadium
+Cyste
+Tönnchen
+alle Stadien
+
+
+
+Entwicklungsstadium ==> specimenLifeStage
+
+nicht differenziert
+adult
+subadult
+interkalar
+juvenil
+Larve
+Nymphe
+Protonymphe
+Deutonymphe
+Tritonymphe
+Ei
+Puppe
+Exuvie
+
+
+
+Geschlecht ==> specimenSex
+
+nicht differenziert
+Hermaphrodit
+Männchen
+Weibchen
+
+
+
+Fortpflanzungsweise ==> reproductionMode
+
+bisexuell (Amphimixis)
+bisexuell (Autofecundation)
+unisexuell (Parthenogenese)
+asexuell (Fragmentation)
+
+
+
+Mikrohabitate ==> microHabitat Thomas: add "0. Boden (siehe nachfolgende Attribute)"
+
+Gemeint sind Mikrohabitate, die vom 'gewöhnlichen' Habitat 'Boden' unterschieden werden können. [Boden scheint also generell als Mikrohabitat zu gelten.]
+
+1. Tiernester
+1.1 Tiernest - Säugetier
+1.1.1 Tiernest - Säugetier - Nagetier
+1.1.2 Tiernest - Säugetier - Insektenfresser
+1.2 Tiernest - Vogel
+
+Ist es sinnvoll alle Vogelarten aufzuzählen? Lt. Diskussion vom 17.01.2011 nicht. Dennoch gibt es prinzipielle Unterschiede, so dass man z. B. 'Tiernest - Vogel - Höhlenbrüter' und 'Tiernest - Vogel - Bodenbrüter' unterscheiden könnte.
+
+1.2.1 Zaunkönig
+1.2.2 Uferschwalbe
+1.2.3 Singdrossel
+1.3 Tiernest - Gliederfüßer (excl. Insekten)
+1.4 Tiernest - Insekten
+
+Bei Insektennestern ist es gleichfalls sinnvoll, weiter zu differenzieren.
+
+1.4.1 Tiernest - Insekten - Hymenopteren (excl. Ameisen)
+
+Die Kategorien 'verlassen' und 'bewohnt' können genauso gut auf andere Nester zutreffen. Hier würde ein weiteres Kriterium der Klassifizierung eingeführt
+
+1.4.1.1 verlassen
+1.4.1.2 bewohnt
+1.4.2 Tiernest - Insekten - Ameisen
+
+2. an Tieren
+2.1 an Säugetieren
+2.2 an Gliederfüßern (excl. Insekten)
+2.3 an Insekten
+
+3. Tierkot, Mist
+3.1 Kot
+3.1.1 Kot – Pflanzenfresser
+3.1.2 Kot - Fleischfresser
+3.1.3 Fledermauskot
+3.2 Mist
+
+4. Pflanzenabfälle, Kompost
+4.1 Pflanzenabfälle - Obst
+4.2 Pflanzenabfälle - Gemüse
+4.3 Pflanzenabfälle - Streu
+4.3.1 Pflanzenabfälle - Laubstreu
+4.3.1.1 Pflanzenabfälle - Laubstreu - frisch gefallen / vorjährig
+4.3.1.2 Pflanzenabfälle - Laubstreu - verrottend
+4.3.2 Pflanzenabfälle - Nadelstreu
+4.4 Kompost
+4.4.1 Kompost jung
+4.4.2 Kompost alt
+4.5 Mulch
+4.5.1 Mulch - Holzschnitze
+4.5.2 Mulch - Rinde
+4.6 Heu, Stroh
+
+5. im Unterwuchs
+5.1 Farn
+5.2 Moos
+
+Können die Habitate 'Flechte' und 'Alge' zusammengefasst werden? Die prinzipiellen Bedingungen (schnellere Austrocknung als bei Moosen) scheinen gleich.
+
+5.3 Flechte
+
+5.4 Alge
+
+5.5 Höhere Pflanze
+5.5.1 Höhere Pflanze - Wurzel
+5.5.2 Höhere Pflanze - Stamm
+5.5.3 Höhere Pflanze - Blatt
+5.5.3.1 Höhere Pflanze - Blatt - Nadelbaum
+5.5.3.2 Höhere Pflanze - Blatt - Laubbaum
+5.5.4 Rinde
+5.5.4.1 Höhere Pflanze - auf Rinde
+5.5.4.2 Höhere Pflanze - unter Rinde
+5.5.4.2.1 Höhere Pflanze - unter Rinde - Nadelbaum
+5.5.4.2.2 Höhere Pflanze - unter Rinde - Laubbaum
+5.5.5 an Gräsern
+5.5.5.1 an Süßgräsern
+5.5.5.2 an Sauergräsern
+5.6 Pilz
+
+6. Totholz
+6.1 Baumstumpf
+6.1.1 Baumstumpf - Nadelbaum
+6.1.2 Baumstumpf - Laubbaum
+6.2 toter Baumstamm
+6.2.1 in totem Baumstamm
+6.2.2 unter totem Baumstamm
+6.3 tote Äste und Zweige
+6.4 Holzstapel
+6.5 bearbeitetes Holz (z. B. unter Brett in einem Hühnerhof ;-)
+6.6 Totholz - Rinde
+6.6.1 Rindenabfall
+
+'Rindenabfall' ist das gleiche Mikrohabitat (hinsichtlich der Bedingungen, die der Lebensraum bietet) wie 'Mulch - Rinde' (4.5.2).
+
+6.6.2 Totholz - auf Rinde
+6.6.3 Totholz - unter Rinde
+6.6.3.1 Totholz - unter Rinde - Nadelbaum
+6.6.3.2 Totholz - unter Rinde - Laubbaum
+6.7 in Totholz (nicht näher bezeichnet, keine Angabe ob Stamm, Ast, Wurzel,...)
+6.7.1 in Totholz - Nadelbaum
+6.7.2 in Totholz - Laubbaum
+
+7. im und am Wasser
+7.1 am Wasser - im Spülsaum
+7.1.1 am Wasser - im Spülsaum - marin
+7.1.2 am Wasser - im Spülsaum - Süßwasser
+7.1.3 am Wasser - im Spülsaum - Brackwasser
+7.2 am Wasser - im (wechselfeuchten) Sand
+7.3 im Grundwasser
+7.3.1 im Grundwasser - marin
+7.3.2 im Grundwasser - Süßwasser
+7.3.3 im Grundwasser - Brackwasser
+
+8. Steine, Felsen
+8.1 auf Steinen
+8.2 unter Steinen
+8.3 im Stein
+8.4 an Felsen
+
+9. Sonstiges
+9.1 Kehricht
+9.2 Aas
+9.3 Schrott, Müll
+9.4 (Moor-)Bulten
+
+Warum wurde das umbenannt von "Bülten" nach "Bulten". Es scheinen (siehe z.B. Wikipedia) beide Schreibweisen richtig zu sein. Welche Schreibweise wollen wir jetzt verwenden und warum?
+
+9.5 anthropogene Habitate (Aquarien, Terrarien, Zoos...)
+
+
+
+Ernährungstyp ==> feedingEcology (Typ(de) + Typ(en))
+
+ErnährungstypGruppe (deutsch) 	Typ (deutsch) 	Gruppe (englisch) 	Typ (englisch) 
+Pflanzenfresser 		Plant feeding 	
+	 festsitzende Parasiten 		 Sedentary parasites 
+	 wandernde Endoparasiten 		 Migratory endoparasites 
+	 Semi-Endoparasiten 		 Semi-endoparasites 
+	 Ectoparasiten 		 Ectoparasites 
+	 Epidermalzell- und Wurzelhaarfresser 		 Epidermal cell and root hair feeders 
+	 Algen- und Moosfresser 		 Algal and moss feeders 
+	 Konsument von oberirdischem Pflanzengewebe 		 Feeders on above-ground plant tissue 
+Pilzfresser 		Fungal feeding 	
+Pilz- oder Wurzelhaarfresser 		Fungal root hair feeding 	
+Bakterienfresser 		Bacterial feeding 	
+Substrataufnahme 		Substrat ingestion 	
+Räuber 		Animal predators 	
+	 saugend 		 Ingesters 
+	 stechend 		 Piercers 
+Konsument einzelliger Eukaryoten 		Unicellular eucaryote feeding 
+Verbreitungs- oder infektiöse Stadien von Tierparasiten 		Dispersal or infective stages of animal parasites 
+Omnivor 		Omnivorous 
+
+
+
+Beprobter Bodenhorizont ==> soilLayer
+
+Subhydrischer Horizont
+F (am Gewässergrund mit in der Regel >1 Masse-% organischer Substanz, soweit nicht H-Horizont)
+Organischer Horizont (>30 Masse-% org. Substanz)
+H (aus Resten torfbildender Pflanzen: Torf)
+L (aus Ansammlung von nicht und wenig zersetzter Pflanzensubstanz (Förna) an der Bodenoberfläche)
+O (aus Ansammlung von stark zersetzter Pflanzensubstanz; soweit nicht H- oder L-Horizont)
+Of (vermodert, Formteile von Blatt- und Nadelförna nur noch rudimentär vorhanden)
+Oh (humos, zerfällt überwiegend kleinkörnig oder pulverig)
+Mineralischer Horizont (< 30 Masse-% org. Substanz)
+A (Terrestrischer Oberbodenhorizont)
+Ah (humos, mit bis zu 30 Masse-% akkumuliertem Humus)
+Ap (humos, dunkelgrau, durch regelmäßige bodenbearbeitung (Pflug) geprägt, ca. 35 cm mächtig, mit scharfer Untergrenze)
+B (Terrestrischer Unterbodenhorizont)
+C (Terrestrischer Untergrundhorizont)
+P (Terrestrischer Unterbodenhorizont aus Tongestein oder Tonmergelgestein)
+T (Terrestrischer Unterbodenhorizont aus dem Lösungsrückstand von Carbonatgesteinen)
+S (Terrestrischer Unterbodenhorizont mit Stauwassereinfluss)
+G (Semiterrestrischer Bodenhorizont mit Grundwassereinfluss)
+M (Bodenhorizont aus sedimentiertem, holozänem, humosem Solummaterial)
+E (Bodenhorizont aus aufgetragenem Plaggenmaterial)
+R (Mischhorizont entstanden durch tiefgreifende bodenmischende Meliorationsmaßnahmen)
+Y (durch Reduktgas geprägter Horizont)
+
+
+
+Humusformen ==> humusType Thomas: exclude entries with adjectives
+
+Die derzeit hinterlegte Liste der Humusformen halte ich für nicht ausreichend und habe sie nach der KA4 (S. 226 - 238) sowohl ergänzt als auch kategorisiert (JM).
+
+Aeromorphe Humusformen
+Mull
+L-Mull
+Sandmull
+Kalkmull
+F-Mull (Of-Mull)
+Moder (typischer
+feinhumusarmer Moder
+feinhumusreicher Moder
+Mullartiger Moder
+Rohhumus
+feinhumusarmer Rohhumus
+feinhumusreicher Rohhumus
+Rohhumusartiger Moder
+feinhumsarmer Rohhumusartiger Moder
+feinhumusreicher Rohhumusartiger Moder
+Hydromorphe Humusformen
+Feuchthumusformen
+Feuchtmoder
+Feuchtmull
+Feuchtrohhumus
+Nasshumusformen
+Anmoor
+Torfe
+Niedermoortorf
+Übergangsmoortrorf
+Hochmoortorf
+Subhydrische Humusformen
+Dy
+Gyttja
+Saprobel
+Sonderhumusformen
+Graswurzelfilz-Moder
+Hagerhumus
+Streunutzungs-Rohhumus
+Tangelhumus (syn. Magerhumus, F-Rohhumus)
+
+
+
+Datentabelle Bodenarten ==> already included
+
+t: Tone - clay (Bodenartenhauptgruppe der Tone 25 - 100 % T / 0 - 75 % U / 0 - 55 % S)
+lt: Lehmtone - loamy clay (Bodenartengruppe der Lehmtone 45 - 100 % T / 0 - 55 % U / 0 - 55 % S)
+Tt: reiner Ton - pure clay (65 - 100 % T / 0 - 35 % U / 0 - 35 % S)
+Tu2: schwach schluffiger Ton - slight silty clay (45 - 65 % T / 30 - 55 % U / 0 - 25 % S)
+Tl: lehmiger Ton - loamy clay (45 - 65 % T / 15 - 30 % U / 5 - 40 % S)
+Ts2: schwach sandiger Ton - slight sandy clay (45 - 65 % T / 0 - 15 % U / 20 - 55 % S)
+ut: Schlufftone - silty clay (Bodenartengruppe der Schlufftone 25 - 45 % T / 30 - 75 % U / 0 - 35 % S)
+Tu3: mittel schluffiger Ton - medium silty clay (30 - 45 % T / 50 - 65 % U / 0 - 20 % S)
+Tu4: stark schluffiger Ton - coarse silty clay (25 - 35 % T / 65 - 75 % U / 0 - 10 % S)
+Lt3: mittel toniger Lehm - medium clayish loam (35 - 45 % T / 30 - 50 % U / 5 - 35 % S)
+l: Lehm - loam (Bodenartenhauptgruppe der Lehme 8 - 45 % T / 0 - 50 % U / 15 - 83 % S)
+tl: Tonlehme - clay loam (Bodenartengruppe der Tonlehme 25 - 45 % T / 0 - 30 % U / 25 - 75 % S)
+Lts: sandig-toniger Lehm - sandy clay loam (25 - 45 % T / 15 - 30 % U / 25 - 60 % S)
+Ts3: mittel sandiger Ton - medium sandy clay (35 - 45 % T / 0 - 15 % U / 40 - 65 % S)
+Ts4: stark sandiger Ton - coarse sandy clay (25 - 35 % T / 0 - 15 % U / 50 - 75 % S)
+ll: Normallehme - normal loam (Bodenartengruppe der Normallehme 17 - 35 % T / 15 - 50 % U / 15 - 68 % S)
+Lt2: schwach toniger Lehm - slight clayish loam (25 - 35 % T / 30 - 50 % U / 15 - 45 % S)
+Ls2: schwach sandiger Lehm - slight sandy loam (17 - 25 % T / 40 - 50 % U / 25 - 43 % S)
+Ls3: mittel sandiger Lehm - medium sandy loam (17 - 25 % T / 30 - 40 % U / 35 - 53 % S)
+Ls4: stark sandiger Lehm - coarse sandy loam (17 - 25 % T / 15 - 30 % U / 45 - 68 % S)
+sl: Sandlehme - sandy loam (Bodenartengruppe der Sandlehme 8 - 25 % T / 0 - 50 % U / 33 - 83 % S)
+Slu: schluffig-lehmiger Sand - silty loamy sand (8 - 17 % T / 40 - 50 % U / 33 - 52 % S)
+Sl4: stark lehmiger Sand - coarse loamy sand (12 - 17 % T / 10 - 40 % U / 43 - 78 % S)
+St3: mittel toniger Sand - medium clayish sand (17 - 25 % T / 0 - 15 % U / 60 - 83 % S)
+u: Schluffe - silt (Bodenartenhauptgruppe der Schluffe 0 - 30 % T / 50 - 100 % U / 0 - 50 % S)
+tu: Tonschluffe - clayish silt (Bodenartengruppe der Tonschluffe 17 - 30 % T / 50 - 83 % U / 0 - 33 % S)
+Ut4: stark toniger Schluff - coarse clayish silt (17 - 25 % T / 65 - 83 % U / 0 - 18 % S)
+Lu: schluffiger Lehm - silty loam (17 - 30 % T / 50 - 65 % U / 5 - 33 % S)
+lu: Lehmschluffe - silt loam (Bodenartengruppe der Lehmschluffe 8 - 17 % T / 50 - 92 % U / 0 - 42 % S)
+Ut2: schwach toniger Schluff - slight clayish silt (8 - 12 % T / 65 - 92 % U / 0 - 27 % S)
+Ut3: mittel toniger Schluff - medium clayish silt (12 - 17 % T / 65 - 88 % U / 0 - 23 % S)
+Uls: sandig-lehmiger Schluff - sandy loamy silt (8 - 17 % T / 50 - 65 % U / 18 - 42 % S)
+su: Sandschluffe - sandy silt (Bodenartengruppe der Sandschluffe 0 - 8 % T / 50 - 100 % U / 0 - 50 % S)
+Us: sandiger Schluff - sandy silt (0 - 8 % T / 50 - 80 % U / 12 - 50 % S)
+Uu: reiner Schluff - pure silt (0 - 8 % T / 80 - 100 % U / 0 - 20 % S)
+s: Sande - sand (Bodenartenhauptgruppe der Sande 0 - 17 % T / 0 - 50 % U / 42 - 100 % S)
+Ss: reiner Sand - pure sand (0 - 5 % T / 0 - 10 % U / 85 - 100 % S)
+fS: Feinsand - fine sand (75 - 100 % fS / 0 - 25 % mS / 0 - 25 % gS)
+fSms: mittelsandiger Feinsand - medium sandy fine sand (50 - 75 % fS / 15 - 50 % mS / 0 - 35 % gS)
+fSgs: grobsandiger Feinsand - coarse sandy fine sand (50 - 75 % fS / 0 - 15 % mS / 10 - 50 % gS)
+mS: Mittelsand - medium sand (0 - 25 % fS / 65 - 100 % mS / 0 - 35 % gS)
+mSfs: feinsandiger Mittelsand - fine sandy medium sand (25 - 50 % fS / 40 - 75 % mS / 0 - 35 % gS)
+mSgs: grobsandiger Mittelsand - coarse sandy medium sand (0 - 25 % fS / 40 - 65 % mS / 10 - 60 % gS)
+gS: Grobsand - coarse sand (0 - 25 % fS / 0 - 15 % mS / 60 - 100 % gS)
+gSfs: feinsandiger Grobsand - fine sandy coarse sand (25 - 50 % fS / 0 - 40 % mS / 10 - 75 % gS)
+gSms: mittelsandiger Grobsand - medium sandy coarse sand (0 - 25 % fS / 15 - 40 % mS / 35 - 85 % gS)
+us: Schluffsande - silty sand (Bodenartengruppe der Schluffsande 0 - 8 % T / 25 - 50 % U / 42 - 75 % S)
+Su3: mittel schluffiger Sand - medium silty sand (0 - 8 % T / 25 - 40 % U / 52 - 75 % S)
+Su4: stark schluffiger Sand - coarse silty sand (0-8 % T / 40 - 50 % U / 42 - 60 % S)
+ls: Lehmsande - loamy sand (Bodenartengruppe der Lehmsande 0 - 17 % T / 0 - 40 % U / 48 - 95 % S)
+St2: schwach toniger Sand - slight clayish sand (5 - 17 % T / 0 - 10 % U / 73 - 95 % S)
+Su2: schwach schluffiger Sand - slight silty sand (0 - 5 % T / 10 - 25 % U / 70 - 90 % S)
+Sl2: schwach lehmiger Sand - slight loamy sand (5 - 8 % T / 10 - 25 % U / 67 - 85 % S)
+Sl3: mittel lehmiger Sand - medium loamy sand (8 - 12 % T / 10 - 40 % U / 48 - 82 % S)
+
+
+
+Beeinflussung ==> externalInfluence
+
+Hier sollen nur Beeinflussungen, die den IST-Zustand (während der Untersuchungsphase, vielleicht 1 - 2 Monate davor) abbilden, dokumentiert werden. Historische Bezüge gehören ins Originalzitat. Die Möglichkeit zur Kombination der Beeinflussungen muss gegeben sein.
+
+Acker (Biotoptyp)
+Anpflanzung (Biotoptyp)
+Immissionen
+Autoabgase
+Industrieimmissionen
+Beregnung
+Überflutung
+Regenschutz
+Bodenverdichtung
+Bodenabtragung
+Beweidung (Biotoptyp)
+
+Vielleicht sollte man Mahd (und ebenso Kahlschlag) doch in die Liste der Beeinflussungen aufnehmen? Das (nahezu) komplette Abräumen der pflanzlichen Biomasse (jedenfalls derer, die den Biotoptyp prägt) ist schon ein deutlicher Einschnitt. (JV)
+
+Ich bin ebenso für die Wiederaufnahme von Kahlschlag (und auch von Mahd). Ich wollte grad sowohl das menschliche Abholzen als auch den Windwurf infolge von Sturmschäden aufnehmen, da ich momentan ein dazu passendes Paper eingebe. Mein derzeitiger Vorschlag: (JM)
+
+Waldschäden
+Kahlschlag
+Windbruch
+Feuer
+Brandrodung
+
+Das würde ich neu sortieren. Feuer kommt auch außerhalb des Waldes vor. Unter 'Waldschäden' würde ich keinen der Punkte fassen, weil das eine utilitaristische Kategorie ist bzw. eine solche Konnotation enthält: Was für uns (Menschen) ein 'Schaden' ist, bedeutet im ökologischen Sinne eher eine 'Störung'; das sind aber die anderen Beeinflussungen auch. (JV) Also:
+
+Mahd
+Kahlschlag
+Windbruch
+Feuer
+
+Der Abschnitt Düngung/Kalkung sollte erneut überarbeitet werden. Kalkung ist eine Form von (in der Regel) mineralischer Düngung. Daher sollte die Kalkung als Unterpunkt stehen und ggf. um Stickstoff ergänzt werden oder es müsste komplett auf weitere Unterkategorien unter mineralische Düngung verzichtet werden (PD).
+
+Man kann freilich Calcium als Mikronährstoff betrachten. Der wesentliche Effekt der Kalkung besteht aber in einer (drastischen) Änderung des pH-Wertes bzw. im Einbringen eines Pufferstoffes, weswegen man in der Bergbaufolgelandschaft auch allgemein von 'Melioration' bzw. 'Tiefenmelioration' spricht. Das erfolgt heutzutage mit Kalk, früher mit Kraftwerksasche, was noch andere Effekte nach sich zog, da die Bodenstruktur stark verändert wurde. Ich würde schlicht 'Kalkung' als gesonderten Punkt belassen. (JV)
+
+Düngung
+organische Düngung
+mineralische Düngung
+Kalkung
+Gletscherdynamik (Biotoptyp)
+Hudenutzung
+Müll
+Pestizide / Biozide
+Akarizide
+Fungizide
+Herbizide
+Insektizide
+
+
+
+Methoden zur pH-Wert-Messung ==> phValueMethod Thomas: use second table only
+
+deutsch                                             englisch
+Glaselektrode                                  glass electrode
+Glaselektrode H2O                        glass electrode H2O
+Glaselektrode n-KCl                       glass electrode n-KCl
+Glaselektrode 0,1 n-KCl                glass electrode 0.1 n-KCl
+Glaselektrode 0,02 n-CaCl2        glass electrode 0.02 n-CaCl2
+Indikator                                           indicator
+Glaselektrode KCl                           glass electrode KCl
+Glaselektrode CaCl2                      glass electrode CaCl2
+andere                                               others
+
+Die obige Tabelle ist m. E. so nicht brauchbar; entscheidend für den pH-Wert ist, in welcher Referenzlösung die Bodenprobe gelöst wird, weniger die Glaselektrodenlösung. In der Elektrode selber kann auch Silberchloridlösung oder sonst etwas sein. Es wird zwar meist mit Glaselektrode gemessen, aber die Referenzlösung sollte deutlich davon abgetrennt werden. Vorschlag: nur die drei verwendeten Lösungen und die beiden Standardkonzentrationen nach DIN ISO 10390, alles andere unter 'sonstige', wie folgt:
+
+Messung in CaCl2
+Messung in 0,01 mol/l CaCl2
+Messung in destilliertem Wasser
+Messung in KCl
+Messung in 1 mol/l KCl
+Messung mit Glaselektrode (ohne nähere Angaben)
+Indikatorpapier oder -lösung
+andere Methode
+
+NB: Die erste Tabelle gibt genau die Salze an, in deren Lösungen die Bodenproben suspendiert werden. Es handelt sich NICHT um Salzlösungen in der Mess- bzw. Referenzelektrode. (EW)
+
+
+
+Sammel-Nachweismethode ==> collectingMethod
+
+Methodengruppe 	Methode 	Untermethode 	Method group 	Method	Submethod 
+Visueller Nachweis 			Visual 		
+	 Foto 			 Photo 	
+Substratprobe 1 (Gewinnung der Tiere im Labor) 			substrate sampling in the field (extraction in the lab) 		
+	 Stechzylinder oder Stechrahmen 			 soil corer 	
+Handfang (Gewinnung der Tiere in situ) 			direct sampling (extraction in situ) 		
+	 Einzeltierfang mit Pinzette, Pinsel etc. 			 hand sampling with forceps, brush etc. 	
+	 Sieben 			 sifting methods 	
+		 Käfersieb (diverse Maschenweiten!) 			 Winkler-Wagner eclector 
+		 Winker-Moczarski-Sieb 2 			 Moczarski eclector 
+	 Gießprobe 			 extraction with formalin or mustard 	
+		 mit Austreibrahmen 			 formalin/mustard extraction with sample frame 
+		 ohne Austreibrahmen 			 formalin/mustard extraction without sample frame 
+	 Exhaustor 			 exhaustor (aspirator/pooter) 	
+		 D-Vac (motorgetriebener Bodentiersauger) 			 portable suction device 
+	 Fogging 			 canopy fogging 	
+	 Kescher (Streifnetz) 			 sweep net 	
+	 Klopfen 			 knocking 	
+		 Arlé-Methode (Hüther 1993) 			 Arlé method (Hüther 1993) 
+	 Lichtfang 			 light-trapping 	
+	 Elektrofang 			 electrical extraction 	
+		 Elektro-Oktett nach Thielemann 			 octet extraction after Thielemann (1986) 
+Fallenfang 			trapping 		
+	 Bodenfalle 			 pitfall trap 	
+		 Bodenfalle mit Eklektor 			 combined pitfall-emergence trap 
+	 Streubeutel 			 litter bag 	
+		 Eisenbeis-Minicontainer 			 Eisenbeis minicontainer 
+	 Klebefalle (z. B. Leimring) 			 sticky trap 	
+	 Malaise-Falle 			 malaise trap 	
+	 Fangschale 			 pan trap 	
+	 Farbschale 			 coloured pan trap 	
+	 Fensterfalle 			 flight interception trap 	
+	 Eklektorfalle 			 emergence trap 	
+		 Bodeneklektor 			 soil eclector 
+		 Baumeklektor 			 tree eclector 
+		 Photoeklektor 			 photoeclector 
+	 Zeitfalle 3 			 time-sorting traps 	
+	 Richtungsfalle 3 			 directional trap 	
+
+
+
+Extraktionsmethode ==> extractionMethod (Name_en plus Name_de)
+
+Name_de	Name_en	Standardisierung?	Standardisierung	Kommentare	für Gruppe	Medium	Prinzip
+Extraktion				Wenn Extraktionsmethode nicht näher bekannt			
+Baermann-Trichter	Baermann funnel		Baermann (1917)		Meso/Mikro	nass	qualitativ
+Baermann-Trichter, modifiziert		nein			Meso/Mikro	nass	qualitativ
+Berlese-Trichter	Berlese funnel		Berlese (1905)	Wärmeaustreibung mit Heißwassermantel	Meso/Mikro	trocken	qualitativ
+Berlese-Tullgren-Trichter, modifiziert	Berlese Tullgren funnel	nein		Austreibung durch Wärme und Licht von oben	Meso/Mikro	trocken	qualitativ
+Flotation nach Bachelier			Bachelier (1978)	Flotation und Gegenstromprinzip	Makro/Meso	nass	qualitativ
+Flotation nach Cobb	Cobb's flotation technique		Cobb (1924/25)		Nematoda		qualitativ
+Flotation nach Fenwick	Fenwick apparatus		Fenwick (1940)		Nematodencysten	nass	qualitativ
+Flotation nach Ladell			Ladell (1936)	Flotation nach Naßsieben	Makro/Meso	nass	qualitativ
+Gazebeutelmethode nach Reisinger	Reisinger gauze sac method		Reisinger (1954)	Austreibung mit Nassfilter	Plathelminthes	nass	quantitativ
+Glaskolbenmethode nach Seinhorst	two-flasks technique		Seinhorst (1955)	Gegenstromprinzip	Nematoda	nass	qualitativ
+Handauszählung/ Handauslese	hand sorting			mit Vergrößerungshilfe oder mit bloßem Auge	Makro/Meso/Mikro		qualitativ
+Kältefilter nach Uhlig			Uhlig (1964)	(Sandlückenfauna) mit Nylonfilter und Temperaturgradient	vagile Mikrofauna, Nematoden, Oligochaeten	nass	qualitativ
+Kempson-Extraktor	Kempson extractor	ja	Kempson, Lloyd & Ghelardi (1963)	Infrarot & Temperaturgradient, v. a. für Streuproben	Makro/Meso	trocken	qualitativ
+MacFadyen-Extraktor	High-Gradient-Extractor	ja	MacFadyen (1961)	Austreibung durch Temperaturgradient (20-30°C)	Meso/Mikro	trocken	quantitativ
+MacFadyen-Extraktor, modifiziert		nein		Temp., Dauer o. ä. modifiziert	Meso/Mikro	trocken	quantitativ
+Naßsieben (Schlämmen)			Morriss (1922)	Durchschlämmen über Siebkaskade	Makro/Meso/Mikro	nass	qualitativ
+Naßtrichter nach Graefe	Graefe wet funnel			Nasstrichtermethode ohne Wärme	Enchytraeidae	nass	qualitativ
+Naßtrichter nach O'Connor	O'Connor wet funnel		O'Connor (1955)	Nasstrichtermethode mit Wärme	Enchytraeidae	nass	qualitativ
+Oostenbrink-Elutriator	Oostenbrink elutriator		Oostenbrink (1954, 1960)	Auswaschung mit Spülkanne	Nematoda	nass	qualitativ
+Oostenbrink-Siebschale	cottonwool filter method		Oostenbrink (1954)	Baumwollfilter-Spülung	Nematoda	nass	qualitativ
+Sandschichtmethode nach Nielsen			Nielsen (1952/53)	Austreibung in gekühlte Sandschicht	Enchytraeidae	nass	qualitativ
+Siebmethode nach Cobb	Cobb's sieving technique		Cobb (1918)	Dekantier-Siebmethode	Nematoda		qualitativ
+Sprühmethode nach Seinhorst	funnel-spray method		Seinhorst (1950)		Nematoda	nass	qualitativ
+Spülapparat nach Seinhorst	Seinhorst elutriator		Seinhorst (1956,1962)	Gegenstromprinzip	Nematoda	nass	qualitativ
+Trockensieben				Einzelsieb oder Kaskade	Makro/Meso/Mikro	trocken	qualitativ
+Trockentrichter	dry funnel	nein		langsame Austrocknung bei Raumtemperatur	Meso/Mikro	trocken	qualitativ
+Tullgren-Trichter	Tullgren funnel		Tullgren (1918)	Austreibung durch Glühlampe aus Blechzylinder mit Sieb	Meso/Mikro	trocken	qualitativ
+Vibrationsflotation			Bieri & Delucchi (1980)		Meso/Mikro	nass	qualitativ
+Winkler-Extraktor	Winkler/Moczarski Eclector			Austrocknung (und Störung)	Makro/Meso		
+Zentrifugiermethode			Müller & Naglitsch (1957)	Dichtegradient in Kochsalzlösung	Meso/Mikro	nass	
+Zweiphasentrennung				differenzierte Benetzbarkeit im Zweiphasengemisch	Meso/Mikro	nass
+Direkte Mikroskopie des Bodens				Das ist eine Nicht-Extraktionsmethode.	Makro/Meso/Mikro	
+sonstige Extraktionsmethode				Wenn Extraktionsmethode bekannt, aber nicht in die anderen Methodiken fallend		
+
+
+
+Konservierungsmittel und Einbettungsmedien ==> specimenPreparationMedium, add "Ausstopfung"
+
+ausgehend von den Listen in Dunger & Fiedler (1997), ergänzt durch Wurst (2011, schriftl.)
+
+Konservierungsmittel
+Alkohol
+Ethanol, rein
+Ethanol, vergällt
+Ethylenglycol
+Glycerol
+Isopropanol
+Formol (wässrige Formaldehydlösung)
+Pikrinsäurelösung
+Fixierungsgemisch
+Bouin (Formalin, Essigsäure, Pikrinsäure)
+Ethanol mit Formalinzusatz
+Ethanol mit Glycerolzusatz
+Gisin (1958) (Ethanol, Diethylether, Essigsäure, Formalin)
+Hüther (1992) (Ethanol, Diethylether, Formalin)
+Oudemans (Ethanol, Essigsäure, Glycerol)
+von Törne (1965) (Isopropanol, Essigsäure, Formalin)
+Kälte
+8 ... 4°C
+4 ... 0°C
+0 ... -20°C
+-20 ... -80°C
+< -80°C
+Sonstiges/Hausmischungen
+
+Einbettungsmedien
+wasserunlösliches Harz non water-soluble resin
+natürliches, wasserunlösliches Harz natural non water-soluble resin
+Kanadabalsam Canada balsam
+Euparal Euparal
+künstliches, wasserunlösliches Harz synthetic non water-soluble resin
+Malinol Malinol
+wasserlösliches Medium water-soluble medium
+Chloralhydrat-Gemisch chloralhydrate mixture
+Glyceringelatine glycerol jelly
+Lactophenol-Gemisch lactophenol mixture
+
+Liste der gebräuchlichen Einschlussmedien für die Lichtmikroskopie (Auswahl-Liste)
+
+Bemerkung: Dieses Feld wird in der DB durch ein Bemerkungsfeld (Freitext; gehört zu 'Präparatinfo' der Objektdaten) ergänzt; dort können dann detailliertere Angaben zum Einschluss-Medium gemacht werden (Inhaltsstoffe mit Prozentigkeiten - z. B. 'Formol 4%' - , Namen wie Hoyers, Rusek etc. bis hin zum Fragezeichen, wenn das Einschluss-Medium nur eine Vermutung ist).
+
+
+
+Präparatform ==> specimenPreparation
+
+Dauer-/Mikropräparat (auf Objektträger) - permanent slide/micro preparation
+Trockenpräparat - dry preparation
+Nasspräparat - humid preparation
+Kryopräparat - cryo preparation
+
+
+
+Typusform ==> Thomas: already included in materials citation handling, extend
+Typus - Type
+Holotypus - Holotype
+Paratypus - Paratype
+Syntypus - Syntype
+Lectotypus - Lectotype
+Neotypus - Neotype
+Androtypus - Androtype
+Gynotypus - Gynotype
+Nidotypus - Nidotype
+Paralectotypus – Paralectotype
+
+
+
+Erwerbsart [trifft bei ausgewerteter Literatur eigentlich nicht zu] ==> Thomas: exclude
+Ankauf
+Nachlass
+Schenkung
+Tausch
+
+
+
+Autoren-Rollen
+
+Bei Literatur
+Autor
+korrespondierender Autor
+Herausgeber
+
+Bei Sammlungen/ Sammlungsobjekten
+Besitzer
+Bei allen Quellen
+Kontext (umbenannt Projekt)
+
+Sammler und Bestimmer werden nicht als Autorenrollen definiert, sondern unter den Sammelbeschreibungen bzw. Bestimmungsbeschreibungen direkt verknüpft.
+
+
+
+Quellarten ==> documentType ==> Thomas: restrict list to literature types
+
+Literatur
+Zeitschrift/Artikel
+Zeitschrift Journal
+Artikel Article
+Bücher
+Buchserie Book Series
+Buch Book, whole
+Kapitel Book, chapter
+Tagungsband/Kongressband (ist ein Buch, hat aber als übergeordnete Quelle eine Zeitschrift) Conference Proceeding
+Thesis/Bericht/Gutachten
+Dissertation Doctoral thesis
+Masterarbeit Master's thesis
+Bachelorarbeit Bachelor's thesis
+Diplomarbeit Diploma thesis
+Projektarbeit/Semesterarbeit Term paper
+Gutachten Report
+
+Sammlungen
+
+Sammlung
+Sammlungsobjekt
+
+Rohdaten/Feldbeobachtungen
+
+Tagebuch
+Probe
+Rohdaten/Feldbeobachtungen/Unveröffentlichte Arbeiten
+
+Aggregatquellen
+
+Mehrfachquelle (Wenn Daten aus mehreren Veröffentlichungen zusammengetragen werden)
+Erstellen einer Mehrfachquelle mit wenigen Attributen (Titel, Bemerkung,...) und dann per 1:n mit den weiteren Dokumenten verknüpfen
+
+Parent der Quelle ist die Quelle welche ausgewertet werden soll (die anderen zugewiesenen Quellen werden nicht ausgewertet)
+
+Sammelbehälter
+Scope(Taxon) folgendermaßen interpretieren: Sammelbehälter enthält nur Taxa aus Gattung XYZ ?!?
+
+Bibliographie
+
+Scope für das Filtern der Taxa in den Beobachtungen (damit nicht alle zugewiesenen Taxa im Bibliographiebericht auftauchen sondern nur solche die unter dem Scope Taxon eingeordnet sind)
+
+Persönliche Gruppe
+
+Gruppe von Quellen die vom Nutzer für eigene Zwecke erstellt wird (nicht durch die anderen Aggregatquellen abbildbar)
+Kann auch andere Aggregatquellen enthalten (um z.B. die Bibliographien zu organisieren)
+
+Projekt
+kann Sammlungsobjekte, Dokumente enthalten, die aus der Arbeit im Projekt hervorgegangen sind
+
+Problem: Wenn über eine Aggregatquelle ausgewertet werden soll:
+es ist notwendig, mehrere Quellen auszuwerten, aber vermutlich nicht alle: Wie soll die Auswahl durch den Nutzer erfolgen?
+Idee: wenn bei Einer Aggregatquelle nur eine Quelle ausgewertet werden soll, dann Typ: Mehrfachquelle mit Parent und wenn mehrere ausgewertet werden sollen dann z.B. Projekt (mit mehreren Sammelobjekten), wobei die Angehängten Quellen keine duplizierten Daten enthalten sollten
+
+Wo werden die Daten angehängt? An die Quelle, in der Sie aufgetaucht sind.
+
+
+
+Quellspezifika ==> documentGenre
+
+Die hier aufgeführte Liste dient der Kennzeichnung bzw. Klassifikation von (Literatur-)Quellen hinsichtlich ihres Gehalts an nicht näher spezifizierten oder nicht in die Datenbank übernommenen Daten. Sie ist zu lesen wie "Quelle enthält Angaben/ Daten zu <Listenelement> für <Taxon>". Die Verknüpfung erfolgt also für jedes in der Quelle aufgeführte Taxon gesondert.
+Durch das Programm wird sichergestellt, dass eine Mehrfachauswahl möglich ist. Es ist offensichtlich wichtig, dass ggf. die Seitenzahl notiert wird, an welcher Stelle die Daten enthalten sind. Dann kommen vermutlich einzelne Informationsfelder hinzu, die dann zu lesen wären wie "Angaben über <Listeneintrag> auf Seite ... ".
+
+Anatomie
+Biologie
+Faunistik
+Morphologie
+Ökologie
+Physiologie
+Systematik
+Bestimmungsschlüssel
+Taxonomie
+Erstbeschreibung
+Wiederbeschreibung
+Revision
+
+
+
+Datentabelle Personen-Typ ==> Thomas: internal meta data
+
+(natürliche) Person (natural) person
+Pseudonym pseudonym
+Institution institution
+Projekt project
+
+
+
+Bestimmungstyp ==> determinationType
+
+Erstbeschreibung
+Wiederbeschreibung
+Bestimmung
+
+
+
+Datentabelle Quantitaetseinheit ==> Thomas: exclude, seems to be meta data
+
+Abundanz
+Ind./m²
+abgeleitet: Ind./cm², Ind./ha, ...
+Ind./cm³
+abgeleitet: Ind./l, Ind./m³
+Ind./g ts
+Ind./Objektträger
+Biomasse
+mg/m², µg/g
+Aktivitätsdichte
+Ind./ Falle * 2 Wochen
+Dominanz
+Dominanzklasse
+%
+Konstanz
+%
+
+
+
+Dominanzklassen ==> dominanceClass, dominanceRange
+
+Dominanzklasse	Definition
+eudominant	32-100%
+dominant	10-31,99%
+subdominat	3,2-9,99%
+rezedent	1,0-3,1%
+subrezedent	0,32-0,99%
+sporadisch	0,0-0,31%
+
+
+
+Vertrauenswürdigkeit (Reliability) ==> Thomas: difficult ... include the five categories indented below
+
+Diese Liste bezieht sich ursprünglich auf die Vertrauenswürdigkeit eines Bestimmungsvorganges (am Sammelobjekt oder bei den Beobachtungsdaten). Es ist zwar mit steigender Vertrauenswürdigkeit von 'unsicher' ... 'von Experten geprüft' auszugehen, doch gehen wir von der Ehrlichkeit und dem guten Willen ('nach bestem Wissen und Gewissen') unserer Datenlieferanten aus, d. h. unsere "Vertrauenswürdigkeit" ist eine Bewertung der Nachprüfbarkeit der gelieferten Daten durch unabhängige Sachkundige.
+Als Grundlage bleibt somit: Die Vorauswahl - aufnehmen oder nicht aufnehmen - erfolgt durch den bearbeitenden Wissenschaftler, der anschließend die (bereits erfolgte) Verifizierung und (zukünftige noch genauere) Verifizierbarkeit einer von fünf Klassen zuteilt. Anschließend kann der DB-Nutzer entscheiden, aus welchen Klassen er Daten für seine Metaanalysen aufnehmen möchte.
+unbekannt/unsicher (keine Informationen zu den folgenden Bereichen)
+verwendete Bestimmungsliteratur angegeben (s. 'Bestimmungsmethode' in der Bestimmungsbeschreibung)
+(Welche) Spezialisten für (welche) problematische(n) Gruppe(n) konsultiert (s. 'Bestimmungsmethode' in der Bestimmungsbeschreibung)
+Belegmaterial für spätere Nachprüfbarkeit (wo) hinterlegt
+Belegmaterial von (welchen) Experten überprüft
+Ob die Methodik der Probennahme angegeben wurde, bleibe hier außen vor, da das ohnehin meistens geschieht und als Auswahlkriterium in eine ganz andere Richtung führt, nämlich welche Tiergruppen überhaupt erfaßt worden sein können.
+Die "Vertrauenswürdigkeit" bezieht sich demnach nur auf die (Art-)Determination; und wir wollen mit dieser Wertung auch niemandem die Eselsmütze der Schlampigkeit aufsetzen, sondern unsere Datenlieferanten mittelfristig zu nachhaltiger Daten- und Belegerhebung ermuntern.
+Vorschlag für die Standardisierung der Auswahlfelder:
+
+  verwendete Bestimmungsliteratur angegeben
+  Spezialisten für problematische Taxa konsultiert
+  Belegmaterial für spätere Nachprüfbarkeit hinterlegt
+  Belegmaterial von Experten überprüft
+  unbekannt/unsicher (keine Informationen zu den folgenden Bereichen)
+
+die detaillierten Informationen, welcher Spezialist konsultiert wurde, welche Taxa er nachgeprüft hat und wo das Material hinterlegt wurde, können im Bemerkungsfeld oder im Feld Bestimmungshinweise untergebracht werden; verwendete Bestimmungsliteratur kann ja bereits in den jetzigen Versionen des Client bei 'Bestimmungsmethode' eingetragen werden.
+
+
+
+Datentabelle Sammelstandard [läßt sich bei älterer Literatur gar nicht anwenden, bei neuerer ??] ==> Thomas: exclude, we cannot retro-assess this from text anyway
+
+ISO 23611-1 Soil quality — Sampling of soil invertebrates — Part 1: Handsorting and formalin extraction of earthworms
+ISO 23611-2 Soil quality — Sampling of soil invertebrates — Part 2: Sampling and extraction of microarthropods (Collembola and Acarina)
+ISO 23611-3 Soil quality — Sampling of soil invertebrates — Part 3: Sampling and soil extraction of enchytraeids
+ISO 23611-4 Soil quality — Sampling of soil invertebrates — Part 4: Sampling, extraction and identification of soil-inhabiting nematodes
+ISO 23611-5 Soil quality — Sampling of soil invertebrates — Part 5: Sampling and extraction of soil macro-invertebrates
+ISO 23611-6 Soil quality — Sampling of soil invertebrates — Part 6: Guidance for the design of sampling programmes with soil invertebrates
+
+
+
+Synonymart [ist Sache der taxonomischen Spezialisten, wird erst in der Datenbank selbst eingetragen] ==> Thomas: we don't need this
+
+consists of
+is included in
+is synonym to
+
+
+
+Taxonomischer Rang ==> Thomas: FAT is doing this already ... add superFamily rank, ending in "-oidea"
+
+Stamm
+Unterstamm
+Überklasse
+Klasse
+Unterklasse
+Überordnung
+Ordnung
+Unterordnung
+Überkohorte
+Kohorte
+Unterkohorte
+Überfamilie
+Familie
+Unterfamilie
+Tribus
+Gattung
+Untergattung
+Art
+Unterart
+Varietät
+
+
+
+Naturräume ==> Thomas: let Edaphobase handle this based on geo-coordinates
+
+Name des Naturraums (deutsch)	Name des Naturraums (englisch)
+Nordostdeutsches Tiefland	Northeast German Plain
+Nordwestdeutsches Tiefland	Northwest German Plain
+Westliche Mittelgebirge	Western Central Uplands
+Östliche Mittelgebirge	Eastern Central Uplands
+Südwestliche Mittelgebirge / Schichtstufenland	South German Scarplands
+Alpenvorland	Alpine Foreland
+Alpen	Alps
+Nord- und Ostsee	North and Baltic Seas
+
+
+
+pH-Wert ==> phValue
+
+Bezeichnung	pH
+extrem alkalisch	> 11,0
+sehr  stark alkalisch	10,1 - 11,0
+stark alkalisch	9,1 - 10,0
+mäßig alkalisch 	8,0 - 9,0
+schwach alkalisch	7,1 - 8,0
+neutral	7,0
+schwach sauer	6,0 - 6,9
+mäßig sauer	5,0 - 5,9
+stark sauer	4,0 - 4,9
+sehr stark sauer	3,0 - 3,9
+extrem sauer	< 3,0
+
+
+
+Himmelsrightungen
+
+SINNVOLL? ==> Thomas: OK, exclude.
+
+
+
+Pflanzennamen
+
+MACHT FAT! ==> Thomas: OK
+
+
+
+Pflanzengesellschaften
+
+SINNVOLL?
+
+LISTE KAPUTT (römisch nummerirte Einträge alle am Ende ...)? Thomas: Goerlitz people need to repair this

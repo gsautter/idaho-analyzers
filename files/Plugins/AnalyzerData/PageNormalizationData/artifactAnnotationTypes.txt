@@ -1,0 +1,6 @@
+pageBorder FF8800
+pageTitle FFFF00
+//pageNumber 888800
+
+caption 8888FF
+footnote 88FF88

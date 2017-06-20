@@ -1,0 +1,6 @@
+attribute.testOne.dataFile|testOne.list.txt
+attribute.testOne.label|Test+Attribute+1
+attribute.testTwo.dataFile|testTwo.list.csv
+attribute.testTwo.label|Test+Attribute+2
+attribute.testTwo.listColumnName|testTwoValue
+attribute.testTwo.attributeColumnNames|testTwoName+TestTwoNr

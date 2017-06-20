@@ -1,0 +1,100 @@
+Boden 
+Tiernester 
+  Tiernest - Säugetier 
+    Tiernest - Säugetier - Nagetier 
+    Tiernest - Säugetier - Insektenfresser 
+  Tiernest - Vogel 
+    Zaunkönig 
+    Uferschwalbe 
+    Singdrossel 
+  Tiernest - Gliederfüßer (excl. Insekten) 
+  Tiernest - Insekten 
+    Tiernest - Insekten - Hymenopteren (excl. Ameisen) 
+      verlassen 
+      bewohnt 
+    Tiernest - Insekten - Ameisen 
+an Tieren 
+  an Säugetieren 
+  an Gliederfüßern (excl. Insekten) 
+  an Insekten 
+Tierkot, Mist 
+  Kot 
+    Kot – Pflanzenfresser 
+    Kot - Fleischfresser 
+    Fledermauskot 
+  Mist 
+Pflanzenabfälle, Kompost 
+  Pflanzenabfälle - Obst 
+  Pflanzenabfälle - Gemüse 
+  Pflanzenabfälle - Streu 
+    Pflanzenabfälle - Laubstreu 
+      Pflanzenabfälle - Laubstreu - frisch gefallen / vorjährig 
+      Pflanzenabfälle - Laubstreu - verrottend 
+    Pflanzenabfälle - Nadelstreu 
+  Kompost 
+    Kompost jung 
+    Kompost alt 
+  Mulch 
+    Mulch - Holzschnitze 
+    Mulch - Rinde 
+  Heu, Stroh 
+im Unterwuchs 
+  Farn 
+  Moos 
+  Flechte 
+  Alge 
+  Höhere Pflanze 
+    Höhere Pflanze - Wurzel 
+    Höhere Pflanze - Stamm 
+    Höhere Pflanze - Blatt 
+      Höhere Pflanze - Blatt - Nadelbaum 
+      Höhere Pflanze - Blatt - Laubbaum 
+    Rinde 
+      Höhere Pflanze - auf Rinde 
+      Höhere Pflanze - unter Rinde 
+        Höhere Pflanze - unter Rinde - Nadelbaum 
+        Höhere Pflanze - unter Rinde - Laubbaum 
+    an Gräsern 
+      an Süßgräsern 
+      an Sauergräsern 
+  Pilz 
+Totholz 
+  Baumstumpf 
+    Baumstumpf - Nadelbaum 
+    Baumstumpf - Laubbaum 
+  toter Baumstamm 
+    in totem Baumstamm 
+    unter totem Baumstamm 
+  tote Äste und Zweige 
+  Holzstapel 
+  bearbeitetes Holz 
+  Totholz - Rinde 
+    Rindenabfall 
+    Totholz - auf Rinde 
+    Totholz - unter Rinde 
+      Totholz - unter Rinde - Nadelbaum 
+      Totholz - unter Rinde - Laubbaum 
+  in Totholz (nicht näher bezeichnet, keine Angabe ob Stamm, Ast, Wurzel,...) 
+    in Totholz - Nadelbaum 
+    in Totholz - Laubbaum 
+im und am Wasser 
+  am Wasser - im Spülsaum 
+    am Wasser - im Spülsaum - marin 
+    am Wasser - im Spülsaum - Süßwasser 
+    am Wasser - im Spülsaum - Brackwasser 
+  am Wasser - im (wechselfeuchten) Sand 
+  im Grundwasser 
+    im Grundwasser - marin 
+    im Grundwasser - Süßwasser 
+    im Grundwasser - Brackwasser 
+Steine, Felsen 
+  auf Steinen 
+  unter Steinen 
+  im Stein 
+  an Felsen 
+Sonstiges 
+  Kehricht 
+  Aas 
+  Schrott, Müll 
+  (Moor-)Bulten 
+  anthropogene Habitate (Aquarien, Terrarien, Zoos...) 

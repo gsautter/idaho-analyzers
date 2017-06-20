@@ -1,0 +1,9 @@
+DefaultUploadConceptStatus|Misspelling
+DefaultUploadRelationType|Member
+KnownUploadBaseURL|http%3A%2F%2Fosuc.biosci.ohio-state.edu%2Fhymenoptera%2FTaxon_Holding.addTaxonHolder%3F
+NewUploadBaseURL|http%3A%2F%2Fosuc.biosci.ohio-state.edu%2Fhymenoptera%2Ftnulu_newname%3F
+RequestBaseURL|http%3A%2F%2Fosuc.biosci.ohio-state.edu%2Fhymenoptera%2Ftnulu%3Fthe_name%3D
+UploadPassword|TaxonX
+UploadStatusCode|To+Be+Verified+At+HNS
+UploadUserName|TaxonX
+UploadValidity|Valid

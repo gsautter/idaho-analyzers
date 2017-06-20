@@ -1,0 +1,16 @@
+figure
+figures
+table
+tables
+diagram
+diagrams
+map
+maps
+abbildung
+abbildungen
+tabelle
+tabellen
+diagramm
+diagramme
+karte
+karten

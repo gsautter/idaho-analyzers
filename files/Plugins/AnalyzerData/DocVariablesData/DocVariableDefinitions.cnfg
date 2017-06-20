@@ -1,0 +1,77 @@
+@CONTEXT {
+	subSection[./@type = 'materials_methods']
+	subSection[./@type = 'document_head']
+	subSection[./@type = 'introduction']
+}
+
+@collectingCountry {
+	collectingCountry/@name
+	collectingCountry
+	country/@name
+	country
+	stateProvince/@country
+}
+
+@collectingRegion {
+	collectingRegion/@name
+	collectingRegion
+	stateProvince/@name
+	stateProvince
+}
+
+@stateProvince {
+	stateProvince/@name
+	stateProvince
+}
+
+@location {
+	location/@name
+	location
+}
+
+@longitude {
+	geoCoordinate[./@orientation = 'longitude']/@value
+	location/@longitude
+}
+@latitude {
+	geoCoordinate[./@orientation = 'latitude']/@value
+	location/@latitude
+}
+@geoCoordinatePrecision {
+	geoCoordinate/@precision
+	location/@longLatPrecision
+}
+
+@collectingMethod {
+	collectingMethod/@name
+	collectingMethod
+}
+
+@collectingDate {
+	collectingDate/@value
+	date/@value
+	collectingDate
+	date
+}
+@collectingDateMin {
+	collectingDate/@valueMin
+	date/@valueMin
+}
+@collectingDateMax {
+	collectingDate/@valueMax
+	date/@valueMax
+}
+
+@collectionCode {
+	collectionCode/@value
+	collectionCode
+}
+
+@collectorName {
+	collectorName/@value
+	collectorName/@name
+	collectorName
+	person/@value
+	person/@name
+	person
+}

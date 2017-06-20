@@ -1,0 +1,12 @@
+phValueLabel;phValueRange
+extrem alkalisch;> 11.0
+sehr stark alkalisch;10.1 - 11.0
+stark alkalisch;9.1 - 10.0
+mäßig alkalisch;8.0 - 9.0
+schwach alkalisch;7.1 - 8.0
+neutral;7.0
+schwach sauer;6.0 - 6.9
+mäßig sauer;5.0 - 5.9
+stark sauer;4.0 - 4.9
+sehr stark sauer;3.0 - 3.9
+extrem sauer;< 3.0

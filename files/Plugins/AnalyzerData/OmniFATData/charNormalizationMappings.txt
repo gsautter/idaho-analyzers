@@ -1,0 +1,98 @@
+﻿À A
+Á A
+Â A
+Ã A
+Ä Ae
+Å A
+Æ Ae
+
+Č C
+Ç C
+
+È E
+É E
+Ê E
+Ë E
+
+Ì I
+Í I
+Î I
+Ï I
+
+Ķ K
+
+Ł L
+
+Ñ N
+
+Ò O
+Ó O
+Ô O
+Õ O
+Ö Oe
+Œ Oe
+Ø O
+
+Š S
+
+Ù U
+Ú U
+Û U
+Ü Ue
+
+Ý Y
+Ÿ Y
+¥ Y
+
+Ž Z
+
+à a
+á a
+â a
+ã a
+ä ae
+å a
+æ ae
+
+¢ c
+ć c
+č c
+ç c
+
+è e
+é e
+ê e
+ë e
+
+ì i
+í i
+î i
+ï i
+
+ñ n
+
+ò o
+ó o
+ô o
+õ o
+ö oe
+œ oe
+ø o
+
+š s
+
+ù u
+ú u
+û u
+ü ue
+
+ý y
+ÿ y
+
+ž z
+
+ß ss
+
+– -
+— -
+— -

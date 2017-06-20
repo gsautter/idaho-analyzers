@@ -1,0 +1,3 @@
+regiao
+catalago
+abreviado

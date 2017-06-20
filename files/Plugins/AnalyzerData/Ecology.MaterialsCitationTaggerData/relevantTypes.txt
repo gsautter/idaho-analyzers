@@ -1,0 +1,34 @@
+// standard attributes
+collectionCode 88F
+specimenCode AAF
+typeStatus CCF
+
+collectingCountry F80
+collectingRegion FA0
+collectingMunicipality FC0
+//collectingCounty FC0
+location FE0
+locationDeviation FF8
+
+collectorName 8F8
+collectingDate AFA
+collectingMethod CFC
+
+geoCoordinate F60
+elevation F40
+
+// special attributes for ecology - TODO discuss colors with Thomas
+specimenCount
+
+verbatimSoil
+bedrock
+soilType
+soilLayer
+
+verbatimPhValue
+
+verbatimVegetation
+
+verbatimMicrohabitat
+
+verbatimLocation

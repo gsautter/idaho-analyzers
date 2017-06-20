@@ -1,0 +1,5 @@
+collectionCode = ./collectionCode
+collectingDate = ./date/@value
+longitude = ./geoCoordinate[./@orientation = 'longitude']/@value
+latitude = ./geoCoordinate[./@orientation = 'latitude']/@value
+typeStatus = ./typeStatus

@@ -1,0 +1,7 @@
+fig
+figs
+tab
+tabs
+diag
+diags
+abb

@@ -1,0 +1,40 @@
+// English uses Gamta's global list
+
+
+// French
+de
+du
+le
+la
+les
+des
+un
+une
+et
+
+// German
+der
+die
+das
+des
+dem
+den
+ein
+eine
+einer
+eines
+und
+fur
+für
+
+// Italian
+do
+da
+di
+del
+della
+delle
+degli
+
+// Swedish
+foer
